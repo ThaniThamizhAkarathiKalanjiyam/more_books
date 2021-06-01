@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Pitchaimuthu Shelf</title>
+  <meta name="description" content="Some books collected by Pitchaimuthu" />
+  <meta name="author" content="Pitchaimuthu" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="generator" content="kitab theme by Darshan in Hugo 0.83.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/more_books/css/kitab.css" />
+
+  <script src="/more_books/js/myFunctions.js"></script>
+  <script src="/more_books/js/clipboard.min.js"></script>
+</head>
+
+  <body class="container" style="max-width: 1024px;">
+    <nav class="mt-2 border-bottom">
+  <div class="d-flex flex-row position-relative">
+    <a href="/more_books/"
+      ><i title="Home" class="nav-menu mr-2 mt-1 fas fa-home"></i
+    ></a>
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-book"
+    onclick="expandMenu(this)"
+    title="Show all books"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2">
+      <strong>
+        Books
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/">
+            தாய்
+          </a>
+          by மாக்ஸிம் கார்க்கி
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/emma/">
+            Emma
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/tamilar_elutchi/">
+            தமிழரின் எழுச்சி
+          </a>
+          by இசையினியன்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/pride_and_prejudice/">
+            Pride <em>and</em> Prejudice
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/">
+            குண்டலகேசி
+          </a>
+          by நாதகுத்தனார்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kudumpa_vilakku/">
+            Kudumpa_vilakku
+          </a>
+          by 
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-bars"
+    onclick="expandMenu(this)"
+    title = "Show Chapters"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="
+      position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2 rounded">
+      <strong class="mt-3">
+        
+        
+        குண்டலகேசி
+        
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_7/"><ol>
+<li>கடவுள் வாழ்த்து</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_8/"><ol start="2">
+<li>அவை அடக்கம்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_2/">கைபேசி தொகுப்புரை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_9/"><ol start="3">
+<li>மனந்தூயோர்க்கே இன்பமுளவாகும் எனல்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_3/">Creative Commons Public Licenses</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_10/"><ol start="4">
+<li>மெய்த்தவம்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_4/">குண்டலகேசி முகப்பு</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_11/"><ol start="5">
+<li>நுகர்வினால் அவாவறுத்தல் கூடாதெனல்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_5/">பதிப்புரை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_12/"><ol start="6">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_6/">குண்டலகேசி முகப்பு</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_13/"><ol start="7">
+<li>யாக்கை நிலையாமை</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_14/"><ol start="9">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_15/"><ol start="10">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_16/"><ol start="11">
+<li>யாக்கையின் இழிதகைமை</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_17/"><ol start="12">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_18/"><ol start="13">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_19/"><ol start="14">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_20/"><ol start="15">
+<li>இறைமாட்சி</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_21/"><ol start="16">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_22/"><ol start="17">
+<li>குற்றங் கடிதல்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_23/"><ol start="18">
+<li>இடுக்கணழியாமை</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/2019-05-13-kundalakesi_24/"><ol start="19">
+<li>இதுவுமது</li>
+</ol>
+</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</nav>
+
+    <main class="mt-3" style="margin-left: 32px;">
+      
+<div class="mb-2 p-3 shadow position-relative">
+  <small
+    class="bg-white pl-1 pr-1 rounded"
+    style="background-color: #f3f3ef !important; position: absolute; top: -0.75em; right: 1em"
+  ><div>
+  
+
+
+
+
+
+
+<span style="font-size: 0.9em;"><i
+    aria-label="home"
+    class="fas fa-home"
+  ></i
+  ></span>
+
+
+
+<span style="font-size: 0.9em;"> / குண்டலகேசி</span>
+
+
+
+<span style="font-size: 0.9em;"> / <ol start="17">
+<li>குற்றங் கடிதல் …</li></ol></span>
+
+</div>
+
+
+</small>
+  <h2>17. குற்றங் கடிதல்</h2>
+  <div class="rounded">
+    <p>மண்ணுளார் தம்மைப் போல்வார்<br>
+மாட்டதே யன்று வாய்மை<br>
+நண்ணினார் திறத்துங் குற்றங்<br>
+குற்றமே நல்ல வாகா<br>
+விண்ணுளார் புகழ்தற் கொத்த<br>
+விழுமியோ னெற்றி போழ்ந்த<br>
+கண்ணுளான் கண்டந் தன்மேற்<br>
+கறையையார் கறையன் றென்பார்.</p>
+<p>எளிய நடை:<br>
+மண்ணுளார் தம்மைப் போல்வார்<br>
+மாட்டதே அன்று வாய்மை<br>
+நண்ணினார் திறத்தும் குற்றம்<br>
+குற்றமே நல்ல ஆகா<br>
+விண்ணுளார் புகழ்தற்கு ஒத்த<br>
+விழுமியோன் நெற்றிபோழ்ந்த<br>
+கண் உளான் கண்டம் தன்மேல்<br>
+கறையை யார் கறை அன்று என்பார்</p>
+<p>Praised by the Devas, he who can split open<br>
+his third eye on his forehead - Shiva<br>
+who ever will refute that<br>
+he has poison in his throat? (nobody)<br>
+(Likewise) defilements are not exclusive to<br>
+humans and those similar to them. If defilements<br>
+show up in heavenly beings those<br>
+defilements would still be defilements.</p>
+<p>In Hindu Mythology there is an incident in the &ldquo;churning of the ocean of milk &quot; where Shiva swallows poison which is stopped in his throat. The point to remember here is that even though it is the exalted Shiva&rsquo;s throat the poison is still poison. சிவன் விஷத்தை குடித்து அது தொண்டையில் நிறுத்தப்பட்ட கதை இந்த உவமானத்தில் பயன் படுத்தப்படுகிறது.</p>
+<p>(இ - ள்.) விண்ணுளார் புகழ்தற்கு ஒத்த - வானுலகத்தே வாழுகின்ற தேவர்களும் புகழ்ந்து பாராட்டுதற் கேற்ற;<br>
+விழுமியோன் - சிறப்பினையுடையவனும்;<br>
+நெற்றிபோழ்ந்த கண் உளான் - நெற்றியைப் பிளந்து தோன்றிய நெருப்புக் கண்ணை யுடையவனும் ஆகிய சிவபெருமானுடைய;<br>
+கண்டம் தன்மேல் கறையை - மிடற்றின் கண்ணமைந்த களங்கத்தை:</p>
+<p>கண்டம் - Throat; தொண்டை, மிடறு<br>
+கறை - மாசு stain</p>
+<p>யார் கறை அன்று என்பார் - யார் தாம் களங்கம் அன்று என்று கூறுவார்? அங்ஙனமே;<br>
+குற்றம் மண்ணுளார் தம்மைப் போல்வர் மாட்டதே அன்று - குற்றம் என்பது இந்நிலவுலகத்தே வாழும் மக்கள் போல்வாரிடத்து மட்டும் உண்டாவதொன்றன்று;<br>
+குற்றம் வாய்மை நண்ணினார் திறத்தும் - குற்றமானது மெய்யுணர்வு பெற்ற மேலோரிடத்துத் தோன்றினும்; குற்றமே - குற்றமாகவே கொள்ளப்படுவதன்றி;<br>
+நல்ல ஆகா - அவர் மேலோர் என்பதற்காக நல்லனவாகி விடா;<br>
+ஆதலால் எத்தகையோரும் தம்பாற் குற்றம் நிகழாதபடி விழிப்புடனிருத்தல் வேண்டும் என்பதாம்.</p>
+<p>(வி - ம்.) ஆதலால் எத்தகையோரும் தம்பாற் குற்றம் நிகழாதபடி விழிப்புடன் இருத்தல் வெண்டும் என்பது குறிப்பெச்சம். கந்தருவர் அரக்கர் முதலியோரையும் கருதி மண்ணுளார் தம்மைப் போல்வர் என்றார், வாய்மை நண்ணினார் என்றது மெய்யுணர்வு கைவரப் பெற்ற மேலோரை!</p>
+<p>&ldquo;தினைத்துணையாம் குற்றம் வரினும் பனைத்துணையாக்<br>
+கொள்வர் பழிநாணு வார்.” &ndash;குறள், 433<br>
+எனவும்,</p>
+<p>பழி நாணுகின்ற பெருமக்கள் தினையளவாகிய சிறு குற்றம் நேர்ந்தாலும், அதைப் பனையளவாகக் கருதிக் (குற்றம் செய்யாமல்) காத்துக்கொள்வர். (மு.வரதராசனார் உரை)</p>
+<p>Those who feel a sense of shame when they do wrong - to them even a small mistake is taken as a big fault. They try to prevent it and protect themselves. - Kural 433</p>
+<p>தினை - A very small measure a trifle; மிகச் சிறிய அளவு.<br>
+துணை - Measure அளவு<br>
+பனை - A large measure, opp. to <em>tiṉai</em> ; ஒரு பேரளவு.<br>
+பழி - Fault குற்றம்<br>
+நாண்- Sense of shame; வெட்கம்</p>
+<p><strong>“</strong> <strong>குற்றமே காக்க பொருளாக குற்றமே<br>
+அற்றம் தரூஉம் பகை.</strong> ” &ndash;குறள், 434</p>
+<p>எனவும் வரும் அருமைத் திருக்குறள்களையும் நோக்குக, (17).</p>
+<p>குற்றமே ஒருவனுக்கு அழிவை உண்டாக்கும் பகையாகும். ஆகையால் குற்றம் செய்யாமல் இருப்பதே நோக்கமாகக் கொண்டு காத்துக் கொள்ள வேண்டும். (மு.வரதராசனார் உரை)</p>
+<p>Defilements are an enemy that cause suffering. Keep in mind to prevent defilements. Kural 434</p>
+<p>குற்றம் - moral fault, defilement<br>
+<strong>அற்றம் -</strong> Suffering; வருத்தம்</p>
+<p>குண்டலகேசி முகப்பு</p>
+<p>நாதகுத்தனார் இயற்றிய<br>
+<strong>குண்டலகேசி</strong><br>
+Kundalakesi<br>
+பொ.வே. சோமசுந்தரனார் விளக்கவுரையுடன்</p>
+<p>[அடுத்த பக்கம்]({{ site.url }}/kundalakesi_23)</p>
+
+  </div>
+</div>
+
+    </main>
+    <div class="side-bar">
+  
+  <p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/kundalakesi/2019-05-13-kundalakesi_23/"
+    title="18. இடுக்கணழியாமை"
+  >
+    <i class="nav-menu fas fa-chevron-circle-right"></i>
+  </a>
+  
+</p>
+<p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/kundalakesi/2019-05-13-kundalakesi_21/"
+    title="16. இதுவுமது"
+  >
+    <i class="nav-menu fas fa-chevron-circle-left"></i>
+  </a>
+  
+</p>
+
+  
+  <a href="#" class="mb-1 mt-1 text-left">
+    <i
+      class="nav-menu fas fa-chevron-circle-up"
+      aria-label="Scroll to top"
+    ></i>
+  </a>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      title="Copy URL to share"
+      class="nav-menu fas fa-share-alt"
+    ></i>
+  </p>
+</div>
+
+<script>
+  function displayCopyMessage(bool) {
+    let alertMessage = "";
+    if (bool) {
+      alertMessage = "Link copied to clipboard";
+    } else {
+      alertMessage = "Link could not be copied to clipboard";
+    }
+    let copiedMessage = document.createElement("div");
+    copiedMessage.id = "copiedMessage";
+    copiedMessage.textContent = alertMessage;
+    copiedMessage.classList.add(
+      "bg-warning",
+      "shadow",
+      "d-block",
+      "text-center"
+    );
+    document.body.appendChild(copiedMessage);
+
+    setTimeout(function() {
+      copiedMessage.style.opacity = 0;
+    }, 500);
+    setTimeout(function() {
+      document.body.removeChild(copiedMessage);
+    }, 1500);
+  }
+
+  let clipboard = new ClipboardJS(".fa-share-alt", {
+    text: function() {
+      return "https:\/\/thanithamizhakarathikalanjiyam.github.io\/more_books\/kundalakesi\/2019-05-13-kundalakesi_22\/";
+    }
+  });
+
+  clipboard.on("success", function() {
+    displayCopyMessage(true);
+  });
+
+  clipboard.on("error", function() {
+    displayCopyMessage(false);
+  });
+</script>
+
+    <footer class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="d-flex flex-column">
+    <span class="mb-1">
+      Tamil Collected Books
+      &middot;
+      (@)
+    </span>
+  </div>
+  <p class="about text-left mb-0">
+    
+      
+    
+    
+    <a href="https://thanithamizhakarathikalanjiyam.github.io/"> thanithamizhakarathikalanjiyam</a>.
+  </p>
+</footer>
+
+  </body>
+</html>
