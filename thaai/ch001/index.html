@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Pitchaimuthu Shelf</title>
+  <meta name="description" content="Some books collected by Pitchaimuthu" />
+  <meta name="author" content="Pitchaimuthu" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="generator" content="kitab theme by Darshan in Hugo 0.83.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/more_books/css/kitab.css" />
+
+  <script src="/more_books/js/myFunctions.js"></script>
+  <script src="/more_books/js/clipboard.min.js"></script>
+</head>
+
+  <body class="container" style="max-width: 1024px;">
+    <nav class="mt-2 border-bottom">
+  <div class="d-flex flex-row position-relative">
+    <a href="/more_books/"
+      ><i title="Home" class="nav-menu mr-2 mt-1 fas fa-home"></i
+    ></a>
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-book"
+    onclick="expandMenu(this)"
+    title="Show all books"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2">
+      <strong>
+        Books
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/">
+            தாய்
+          </a>
+          by மாக்ஸிம் கார்க்கி
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/emma/">
+            Emma
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/tamilar_elutchi/">
+            தமிழரின் எழுச்சி
+          </a>
+          by இசையினியன்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/pride_and_prejudice/">
+            Pride <em>and</em> Prejudice
+          </a>
+          by Jane Austen
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-bars"
+    onclick="expandMenu(this)"
+    title = "Show Chapters"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="
+      position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2 rounded">
+      <strong class="mt-3">
+        
+        
+        தாய்
+        
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch001/">அதிகாரம் 00</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch002/">அதிகாரம் 01</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch003/">அதிகாரம் 02</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch004/">அதிகாரம் 03</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch005/">அதிகாரம் 04</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch006/">அதிகாரம் 05</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch007/">அதிகாரம் 06</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch008/">அதிகாரம் 07</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch009/">அதிகாரம் 08</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch010/">அதிகாரம் 09</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch011/">அதிகாரம் 10</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch012/">அதிகாரம் 11</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch013/">அதிகாரம் 12</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch014/">அதிகாரம் 13</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch015/">அதிகாரம் 14</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch016/">அதிகாரம் 15</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch017/">அதிகாரம் 16</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch018/">அதிகாரம் 17</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch019/">அதிகாரம் 18</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch020/">அதிகாரம் 19</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch021/">அதிகாரம் 20</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch022/">அதிகாரம் 21</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch023/">அதிகாரம் 22</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch024/">அதிகாரம் 23</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch025/">அதிகாரம் 24</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch026/">அதிகாரம் 25</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch027/">அதிகாரம் 26</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch028/">அதிகாரம் 27</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch029/">அதிகாரம் 28</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch030/">அதிகாரம் 29</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch031/">அதிகாரம் 30</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch032/">அதிகாரம் 31</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch033/">அதிகாரம் 32</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch034/">அதிகாரம் 33</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch035/">அதிகாரம் 34</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch036/">அதிகாரம் 35</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch037/">அதிகாரம் 36</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch038/">அதிகாரம் 37</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch039/">அதிகாரம் 38</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch040/">அதிகாரம் 39</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch041/">அதிகாரம் 40</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch042/">அதிகாரம் 41</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch043/">அதிகாரம் 42</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch044/">அதிகாரம் 43</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch045/">அதிகாரம் 44</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch046/">அதிகாரம் 45</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch047/">அதிகாரம் 46</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch048/">அதிகாரம் 47</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch049/">அதிகாரம் 48</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch050/">அதிகாரம் 49</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch051/">அதிகாரம் 50</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch052/">அதிகாரம் 51</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch053/">அதிகாரம் 52</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch054/">அதிகாரம் 53</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch055/">அதிகாரம் 54</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch056/">அதிகாரம் 55</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch057/">அதிகாரம் 56</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch058/">அதிகாரம் 57</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch059/">அதிகாரம் 58</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</nav>
+
+    <main class="mt-3" style="margin-left: 32px;">
+      
+<div class="mb-2 p-3 shadow position-relative">
+  <small
+    class="bg-white pl-1 pr-1 rounded"
+    style="background-color: #f3f3ef !important; position: absolute; top: -0.75em; right: 1em"
+  ><div>
+  
+
+
+
+
+
+
+<span style="font-size: 0.9em;"><i
+    aria-label="home"
+    class="fas fa-home"
+  ></i
+  ></span>
+
+
+
+<span style="font-size: 0.9em;"> / தாய்</span>
+
+
+
+<span style="font-size: 0.9em;"> / அதிகாரம் 00</span>
+
+</div>
+
+
+</small>
+  <h2>அதிகாரம் 00</h2>
+  <div class="rounded">
+    <p><strong>தாய்</strong></p>
+<p><strong>மாக்ஸிம் கார்க்கி</strong></p>
+<p>மின்னூல் வெளியீடு : FreeTamilEbooks.com</p>
+<p>உரிமை : CC0 கிரியேட்டிவ் காமன்ஸ். எல்லாரும் படிக்கலாம், பகிரலாம்.</p>
+<p>அட்டைப்படம் - லெனின் குருசாமி - <a href="mailto:guruleninn@gmail.com">guruleninn@gmail.com</a></p>
+<p>மின்னூலாக்கம் - லெனின் குருசாமி - <a href="mailto:guruleninn@gmail.com">guruleninn@gmail.com</a></p>
+<p>This book was produced using pandoc</p>
+<p>பதிவிறக்கம் செய்ய - <a href="http://FreeTamilEbooks.com/ebooks/thaai">http://FreeTamilEbooks.com/ebooks/thaai</a></p>
+<p>மின்னூல் வெளியீட்டாளர்: <a href="http://freetamilebooks.com">http://freetamilebooks.com</a>
+அட்டைப்படம்: லெனின் குருசாமி - <a href="mailto:guruleninn@gmail.com">guruleninn@gmail.com</a>
+மின்னூலாக்கம்: லெனின் குருசாமி - <a href="mailto:guruleninn@gmail.com">guruleninn@gmail.com</a>
+மின்னூலாக்க செயற்திட்டம்: கணியம் அறக்கட்டளை - kaniyam.com/foundation</p>
+<p>Ebook Publisher: <a href="http://freetamilebooks.com">http://freetamilebooks.com</a>
+Cover Image: Lenin Gurusamy - <a href="mailto:guruleninn@gmail.com">guruleninn@gmail.com</a>
+Ebook Creation: Lenin Gurusamy - <a href="mailto:guruleninn@gmail.com">guruleninn@gmail.com</a>
+Ebook Project: Kaniyam Foundation - kaniyam.com/foundation
+பதிவிறக்கம் செய்ய - <a href="http://freetamilebooks.com/ebooks/thaai">http://freetamilebooks.com/ebooks/thaai</a>
+This Book was produced using LaTeX + Pandoc</p>
+<p><strong>இந்த மின்னூலைப் பற்றி</strong>
+உங்களுக்கு இம்மின்னூல், இணைய நூலகமான, விக்கிமூலத்தில் இருந்து கிடைத்துள்ளது1
+இந்த இணைய நூலகம் தன்னார்வலர்களால் வளருகிறது. விக்கிமூலம் பதிய தன்னார்வலர்களை வரவேற்கிறது. தாங்களும் விக்கிமூலத்தில் இணைந்து மேலும் பல மின்னூல்களை அனைவரும் படிக்குமாறு செய்யலாம்.
+மிகுந்த அக்கறையுடன் மெய்ப்பு செய்தாலும், மின்னூலில் பிழை ஏதேனும் இருந்தால் தயக்கம் இல்லாமல், விக்கிமூலத்தில் இம்மின்னூலின் பேச்சு பக்கத்தில் தெரிவிக்கலாம் அல்லது பிழைகளை நீங்களே கூட சரி செய்யலாம்.
+இப்படைப்பாக்கம், கட்டற்ற உரிமங்களோடு (பொதுகள /குனு -Commons /GNU FDL )2 3 (<a href="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html</a>) இலவசமாக அளிக்கப்படுகிறது. எனவே, இந்த உரையை நீங்கள் மற்றவரோடு பகிரலாம்; மாற்றி மேம்படுத்தலாம்; வணிக நோக்கத்தோடும், வணிக நோக்கமின்றியும் பயன்படுத்தலாம்
+இம்மின்னூல் சாத்தியமாவதற்கு பங்களித்தவர்கள் பின்வருமாறு:</p>
+<p>TVA ARUN</p>
+<p>Arularasan. G</p>
+<p>Jskcse4</p>
+<p>Tnse anita cbe</p>
+<p>KSK TRY</p>
+<p>Guruleninn</p>
+<p>Victory-King</p>
+<p>Girijaanand</p>
+<p>Sridhar G</p>
+<p>Balu1967</p>
+<p>Ssriram mt</p>
+<p>Yaazheesan</p>
+<p>Vmayil</p>
+<p>Seetharaman karges</p>
+<p>பிரபாகரன் ம வி</p>
+<p>Jsazar11</p>
+<p>Yasercs89</p>
+<p>Sgvijayakumar</p>
+<p>Fleshgrinder</p>
+<p>Rocket000</p>
+<p>Mecredis</p>
+<p>Patricknoddy-commonswiki</p>
+<p>Info-farmer</p>
+<p>Be..anyone</p>
+<p>HoboJones</p>
+<p>Deepa arul</p>
+<p>Balajijagadesh</p>
+<p>Xato</p>
+<p>உலகளாவிய பொதுக் கள உரிமம் (CC0 1.0)
+இது சட்ட ஏற்புடைய உரிமத்தின் சுருக்கம் மட்டுமே. முழு உரையை <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">https://creativecommons.org/publicdomain/zero/1.0/legalcode</a> என்ற முகவரியில் காணலாம்.
+பதிப்புரிமை அற்றது
+இந்த ஆக்கத்துடன் தொடர்புடையவர்கள், உலகளளாவிய பொதுப் பயன்பாட்டுக்கு என பதிப்புரிமைச் சட்டத்துக்கு உட்பட்டு, தங்கள் அனைத்துப் பதிப்புரிமைகளையும் விடுவித்துள்ளனர்.
+நீங்கள் இவ்வாக்கத்தைப் படியெடுக்கலாம்; மேம்படுத்தலாம்; பகிரலாம்; வேறு வடிவமாக மாற்றலாம்; வணிகப் பயன்களும் அடையலாம். இவற்றுக்கு நீங்கள் ஒப்புதல் ஏதும் கோரத் தேவையில்லை.
+இது, உலகத் தமிழ் விக்கியூடகச் சமூகமும் ( <a href="https://ta.wikisource.org">https://ta.wikisource.org</a> ), தமிழ் இணையக் கல்விக் கழகமும் ( <a href="http://tamilvu.org">http://tamilvu.org</a> ) இணைந்த கூட்டுமுயற்சியில், பதிவேற்றிய நூல்களில் ஒன்று. இக்கூட்டு முயற்சியைப் பற்றி, <a href="https://ta.wikisource.org/s/4kx">https://ta.wikisource.org/s/4kx</a> என்ற முகவரியில் விரிவாகக் காணலாம்.</p>
+<p>Universal (CC0 1.0) Public Domain Dedication
+This is a human readable summary of the legal code found at <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">https://creativecommons.org/publicdomain/zero/1.0/legalcode</a>
+No Copyright
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law including all related and neighboring rights, to the extent allowed by law.
+You can copy, modify, distribute and perform the work even for commercial purposes, all without asking permission.
+This book is uploaded as part of the collaboration between Global Tamil Wikimedia Community ( <a href="https://ta.wikisource.org">https://ta.wikisource.org</a> ) and Tamil Virtual Academy ( <a href="http://tamilvu.org">http://tamilvu.org</a> ). More details about this collaboration can be found at <a href="https://ta.wikisource.org/s/4kx">https://ta.wikisource.org/s/4kx</a>.</p>
+<p>பதிப்புரை
+உலக இலக்கியப் படைப்பாளிகள் வரிசையில் முன்னிற்பவர் மக்சீம் கார்க்கி, மக்சீம் கார்க்கியின் படைப்புகளில் முதன்மையானது - தலையாயது “தாய்”.
+ரஷ்ய மன்னர் ஜார் ஆட்சியின் கொடுமைகளை எதிர்த்து 1905 ஆம் ஆண்டில் வெடித்தெழுந்த புரட்சி அடக்கி ஒடுக்கப்பட்டது. இப்புரட்சியின் உண்மையைப்பற்றி விளக்கிச்சொல்ல, ரஷ்யத்தொழிலாளி வர்க்க இயக்கத்துக்கு நிதி திரட்ட, அமெரிக்க அரசு ஜார் மன்னனுக்கு ஆதரவு தராமலிருக்க உறுதிசெய்ய போல்ஷிவிக் கட்சி கார்க்கியை அமெரிக்காவுக்கு அனுப்பிற்று. இதற்கு ஓராண்டுக்கு முன், 1904 ஆம் ஆண்டில், கார்க்கியின் எண்ணத்தில் “தாய்” உருப்பெற்றது. அவருடைய வாழ்க்கைத்துணைவியாகிய ஏகடரினா பவ்லோவ்னா வோல்ழினா நல்ல இலக்கியவாதி. “சம்ரஸ்கயா கெசட்டா” என்னும் இதழின் அச்சுப்பிழை திருத்துபவராகத் திருமணத்திற்கு முன் பணிசெய்தவர். கருத்தில் உருப்பெற்ற “தாய்” புதினத்தைக் குடும்பத்தினருக்கு விளக்கிச் சொன்னார்.
+அமெரிக்காவில் கார்க்கி இலக்கிய வரலாற்று மேதை எச். ஜி. வெல்ஸ், ஏர்னஸ்ட் ரூதர்ஃபோர்டு, மெய்யியல் வல்லுநர் வில்லியம் ஜேம்ஸ் ஆகியோருடைய நட்பைப் பெற்றார். அன்றைய அமெரிக்கா, பிரிட்டிஷ் மேலாட்சியை எதிர்த்துக் காலனி அமைப்பு முறையிலிருந்து விடுபட்ட பின்னர், அடிமை முறையை எதிர்த்து வெற்றிகண்ட பின்னணியில், மக்கள் முற்போக்கு விடுதலை இயக்கங்களையும் போராட்டங்களையும் ஆதரித்தனர். பணி முடித்து கார்க்கி நாடு திரும்பினார். ஓய்வெடுக்க மனைவியுடன் கேப்ரி (இத்தாலி) சென்றார்.
+1906 ஆம் ஆண்டு டிசம்பரில் நியூயார்க்கிலிருந்து வெளியாகும் “ஆப்பிள்டன்” இதழில் தாய் மூதற்பகுதியின் முன்பாகமும் 1907ஆம் ஆண்டு தாய் முழுதும் வெளிவந்தன. கார்க்கியின் “தாய்” முதலில் வெளிவந்தது அமெரிக்காவில்தான். ரஷ்ய முற்போக்காளர்கள் ஆர்வத்துடன் வரவேற்றனர். லெனின் உறங்கிக்கிடக்கும் கோடானுகோடி உழைப்பாளிகளைத் தட்டி எழுப்பி ஆர்வவமும் வர்க்க உணர்வூட்டிப் போராட்டத்தில் தம்மையுமறியாமல் ஈடுபடுத்தவல்ல ஆற்றல்படைத்தது தாய் என்று சொல்லிப் பாராட்டினார். உண்மையில் தாய் இந்தப் பணியை மூன்று தலைமுறைகளாகத் தொடர்ந்து செவ்வனே செய்து வந்துள்ளது.
+மாஸ்கோ முன்னேற்றப் பதிப்பகம் 1962 ஆம் ஆண்டில் கார்க்கியின் படைப்புகளைப் பத்துப் பகுதிகளாக ஆங்கிலத்தில் வெளியிட்டது.
+கார்க்கியின் “தாய்” போல, கோடிக்கணக்கான மக்களை விழிப்படையச் செய்த நூல்கள் இவ்வுலகில் சிலவே. ரஷ்ய மொழியில் மட்டும் இருநூற்றுக்கு மேற்பட்ட பதிப்புகள் வெளிவந்துள்ளன. வேற்று மொழிகள் 127 மொழிகளில் நூற்றுக்கணக்கான பதிப்புகள் வந்துள்ளன. இவ்விவரமே “தாய்” சிறப்பை எடுத்துச் சொல்லப் போதுமானது.
+தமிழ் மொழியில் முற்போக்கு இலக்கிய முன்னோடிகளில் ஒருவர் தெர்.மு.சி. ரகுநாதன். இவரே “தாய்” புதினத்தைத் தமிழில் ஆக்கியுள்ளார். முதல் பதிப்பை 1975-ஆம் ஆண்டு மாஸ்கோ முன்னேற்றப் பதிப்பகம் வெளியிட்டது. மூன்றாம் பதிப்பை 1987-ல் ராதுகா பதிப்பகம் வெளியிட்டது.
+1990-க்குப் பிறகு சோவியத் நாடும் கிழக்கு ஐரோப்பிய மக்கள் ஜனநாயக சோசலிச நாடுகளும் சிதறிப்போன பின்னணியில் புதிய பொருளாதாரக் கொள்கையான உலகமயமாதல், தாராளமயமாதல், தனியார்மயமாதல் - கடுமையாக இந்நாட்டில் பின்பற்றப்படும் வேளையில் மீண்டும் “தாய்” வேண்டப்படுகிறாள்.
+வழக்கம்போல் நல்லது பேணும் தமிழ் மக்கள் ஆதரவு உறுதி என்னும் நம்பிக்கையில் - எதிர்பார்ப்பில் - பெருமிதத்தில் நியூ செஞ்சுரி நூல் வெளியீட்டகம் தன்னுடைய முதல் பதிப்பாகத் “தாய்” புதினத்தை வெளியிடுகிறது. மக்சீம் கார்க்கியின் பணியையும் பெருமையையும் வாசகர்களுக்கு நினைவூட்டக் கார்க்கியின், வாழ்க்கைக் குறிப்பும் “தாய்” சுருக்கமும் இணைக்கப் பட்டுள்ளன.</p>
+<p>-பதிப்பகத்தார்</p>
+<p> </p>
+<p>“தாய்” - கதைச் சுருக்கம்
+பனிக்காலம் கழிந்து இளவேனிற் காலம் மணம் பரப்பத் தொடங்கிய தருணத்தில், இரவு பகல் சமமாகும் நாள் நெருங்கும் முன் நீர் பிறந்தீர். பழைய உலகம் மறைந்து சூறாவளிகளை வென்று புறங்கண்டு புத்துலகம் பூத்தது. இரக்கமில்லாக் கொடுமை பல்கிப் பெருகிய காலம் இக்காலம், இக்காலத்தின் குறியீடாக, அடையாளமாக, தற்செயலாகப் பிறந்துள்ளீர். பழைய உலகையும் புதிய உலகையும் தழுவி நிற்கும் வில்வளைவு போன்றவர் நீர். அந்த வளைவைப் பாராட்டுகிறேன். பயணம் செய்யும் நெடுவழியில் அவ்வளைவு ஆளுமை செலுத்துகிறது. நமக்குப் பின் வழிவழித் திரண்டு வரும் மக்கள் பல்லாண்டுகள் அவ்வளைவைப் பார்த்துவிட்டுத்தான் கடந்து நடக்கவேண்டி இருக்கும்.
+கார்க்கிக்கு ரோமெய்ன் ரோலண்டு வரைந்த கடிதம்
+பெல்கேயா நீலவ்னா …..
+படிக்காதவள்; உலகம் அறியாதவள். தொழிலாளியின் மனைவி. குடிப்பழக்கத்துக்கு ஆட்பட்ட கணவனால் நிறைய அடி உதைபட்டு அலைக்கழிக்கப்பட்டவள். இவளே, பிற்காலத்தில் புரட்சிப் புயலான ‘தாய்’ ஆகிறாள். மக்சீம் கார்க்கியின் ஒப்புயர்வற்ற அரிய படைப்பு.
+கணவனை இழந்த தாய் குடித்துவிட்டு வீடு திரும்பிய தன் மகன். “பாவெல் விலாசவ்”வை ஏக்கத்துடன் பார்த்து அரவணைத்துக் கொள்கிறாள். மகன் மாறுகிறான்.
+தோழர்கள் பலர் வீடு வருவதையும் எப்பொழுதும் மகன்
+படித்துக்கொண்டே இருப்பதையும் பார்த்த தாய் தன் மகன் தடை செய்யப்பட்ட புத்தகங்களைப் படித்துவருவதும் துண்டுப் பிரசுரங்கள் விநியோகிப்பதும் அறிந்து மகன் புது வழியில் செல்வது அறிந்து மகிழ்கிறாள். அடிக்கடி அவள் வீட்டில் கூட்டங்கள் நடைபெறுகின்றன.
+வீடு போலீஸ் கண்காணிப்பின் கீழ் வந்துவிட்டது. போலீஸ் சோதனை இடுகிறது. “அந்திரே நிக்கொலாய்” என்பவன் கைது செய்யப்படுகிறான். இவனிடமிருந்தே தாய் பின்னால் எழுதப் படிக்கத் தெரிந்துகொண்டாள். சோசலிச புரட்சிக் கருத்துக்கள் விவசாயிகளிடமும் எடுத்துச் சொல்லப்படுகின்றன.
+காதலையும் நிராகரித்துப் புதிய சோசலிச சமுதாயத்துக்காக அர்ப்பணித்துக்கொண்ட மகன் பற்றிப் பெருமை கொள்கிறாள் ‘தாய்’. புரட்சியில் சத்திய ஒழுக்கம் இருப்பது உணர்கிறாள். தானும் இணைகிறாள்.
+பல போராட்டங்கள். தாய் துண்டுப் பிரசுரங்கள் வினியோகிப்பதில் பெரும் தொண்டாற்றுகிறாள்.
+தொழிலாளர் தினமான “மே” தினம் ஆர்வத்துடன் கோலாகலமாகக் கொண்டாடப்படுகிறது. மக்கள் மகிழ்ச்சி வெள்ளத்தில் மூழ்கினர். பாவெல் கூட்டத்தில் பேசினான். பேசியதற்காக அவனும் தோழர்களும் கைதாயினர்.
+தோழர்கள் கைதான பின் துண்டுப்பிரசுரங்களை எடுத்துச்செல்ல ஆளில்லை. அவை நகரங்களுக்கும் செல்ல வேண்டும். இதைத் தாய் செய்து முடிக்கிறாள்.
+மே தினப் பேச்சுக்காகப் பாவெல் மற்றும் அவன் தோழர்கள் நீதிமன்றத்தில் விசாரிக்கப்படுகின்றனர். அனைவருக்கும் திவாந்திர சிட்சை வழங்கப்படுகிறது. பாவெல் நீதிமன்றப் பேச்சு அச்சடித்து வினியோகம் செய்யப்பட வேண்டும். பிரதிகளை எடுத்துக்கொண்டு வினியோகம் செய்யத் தாய் புறப்படுகிறாள்.
+உளவாளி ஒருவன் பின்தொடர்ந்து சென்று அவள் முகத்தில் ஓங்கி அறைகிறான். நாலாப்பக்கமும் போலீஸ் தாக்குகிறது. ‘இரத்த சமுத்திரமே திரண்டு வந்தாலும் சத்தியத்தை முறியடிக்க முடியாது. உங்களுடைய கொடுமைகள் எல்லாம் உங்கள் தலையிலேயே வந்து விடியும்’ என்று முழங்குகிறாள் “தாய்”.
+போலீஸ்காரன் குரல்வளையைப் பிடித்து
+நெரிக்கிறான். தாய் திணறினாள் …..</p>
+<p>மக்சீம் கார்க்கி - வாழ்க்கைக் குறிப்பு
+உலகப் புகழ்பெற்ற இலக்கியப் படைப்பாளர்கள் வரிசையில் முன் நிற்பவர் மக்சீம் கார்க்கி.
+இங்கிலாந்தில் தொழிற்புரட்சிக்குப் பின்னர் புதிய இலக்கிய வகைகளும் உத்திகளும் தோன்றின. தொழிற்சாலை முறை (Factory System) தோற்றுவித்த அவலங்கள் - சுரண்டல், வறுமை, பிணி, ஏற்றத்தாழ்வுகள், சமூகக் கொடுமைகள் பற்றிப் பாடல்களும், சிறுகதைகளும் புதினங்களும் வெளிவந்தன. பழைய செய்யுள் முறை சிறிது சிறிதாக முக்கியத்துவம் இழந்தது. சிறுகதைகளும் புதினங்களும் இடம்பெற்றன.
+மத்திய காலத்தில் இத்தாலியில் லியனார்டோ -டா- வின்சி கண்ட மறுமலர்ச்சி இயக்கம் பிரான்ஸ், ஜெர்மனி, இங்கிலாந்து ஆகிய நாடுகளில் பரவிச் செல்வாக்குப் பெற்று ரஷ்ய நாட்டையும் பாதித்தது. 1648 இல் இங்கிலாந்திலும் 1789 இல் பிரான்ஸிலும் நடந்த புரட்சிகள் மிக முக்கியமானவை. அவை சமுதாயத்தில் பழைய அரசியல் அமைப்புமுறை மாறிப் புதிய அமைப்பு முறை ஏற்பட வழிகோலின. உலக மக்கள் முழுமைக்குமான உரிமைகளையும் கடமைகளையும் தேவைகளையும் வகுத்து வரையறை செய்ததோடு, மக்களது நாட்டம் அவற்றை அடைவதை நோக்கியே இருக்க வேண்டும் என்னும் நிலைமையை உருவாக்கின. இந்த நிலைமையே புதிய இலக்கியம் தோன்றுவதற்கு உந்து சக்தியாக வளர்ந்தது.
+இங்கிலாந்தில் ஏற்பட்ட தொழிற்புரட்சியைத் தொடர்ந்து ஏற்பட்ட சமுதாய மாற்றங்களைப் பிரதிபலிக்க ஐரோப்பிய நாடுகளில் எல்லா மொழிகளிலும் இலக்கியங்கள் தோன்றின. இவை மக்களுடைய வாழ் நிலைகளை உள்ளது உள்ளவாறே எடுத்துக்காட்டின.
+பத்தொன்பதாம் நூற்றாண்டில் வாழ்ந்த ஹெகல் (HEGEL) என்னும் சிந்தனையாளர் சமுதாய மாற்றங்கள் கருத்துகள் ஒன்றுடன் ஒன்று முரண்பட்டு மோதுவதால் ஏற்படுகின்றன என்றார். ஆனால் அவரைப் பின்பற்றிய கார்ல் மார்க்ஸ் சமுதாய மாற்றங்கள் மக்கள் பிரிவினர் . வர்க்கங்கள் ஒன்றுடன் ஒன்று மோதுவதால் விளைகின்றன . வரலாறு என்பது வர்க்கப் போராட்டங்கள் வரலாறே என்று சொன்னார். வரலாற்றைப் படைப்பவன் மனிதன், உழைப்பே மனிதனைப் படைப்பது என்று ஏங்கெல்ஸ் அறுதியிட்டுச் சொன்னார். இப்புதிய சிந்தனை ஐரோப்பாக் கண்டம் முழுவதும் காட்டுத் தீ போல உழைப்பாளரிடையே பரவிற்று. முதலாளித்துவம் சோஷலிசம் என்னும் வாதங்களும் பிறந்தன.
+மார்க்சியம் உழைக்கும் வர்க்கத்தையும் சிந்தனையாளர்களையும் இலக்கிய படைப்பாளிகளையும் ஈர்த்தது. மக்சீம் கார்க்கி இவர்களில் ஒருவர்.
+மக்சீம் கார்க்கி 1868 மார்ச் 16 ஆம் நாள் ரஷ்யாவில் நிஜினி நோவோகார்டு என்னும் இடத்தில் பிறந்தார். இவருடைய இயற்பெயர் அலக்ஸி என்பதாகும். இவருடைய தந்தையார் ஒரு தச்சர். சிறுவயதிலேயே தந்தையை இழந்தார். தாயும் மறுமணம் செய்துகொண்டார். எனவே அலக்ஸி தம் தாய்ப் பாட்டியால் வளர்க்கப்பட்டார். இதனால் வாழ்நாள் முழுதும் பாட்டியிடம் பாசமும், பரிவும், நன்றியும் காட்டி வந்தார், இவரை வளர்த்து ஆளாக்கிய பெருமை பாட்டிக்கு உரியது. 1879-ல் அவருடைய தாய்! இறந்தார். சிறு பையனாக இருந்தபோதே பல பணிகளைச் செய்ய வேண்டியவரானார். முதலில் காலணிகள் உற்பத்தித் தொழிற்சாலையில் வேலைக்குச் சேர்ந்தார். ஓர் ஆண்டுக்குப் பிறகு கட்டட ஒப்பந்தகாரரிடம் வேலை செய்தார். வேலை கடினமாக இருந்ததால் தப்பி ஓடி டோப்ரி என்னும் பயணக்கப்பலில் வேலைக்குச் சேர்ந்தார். கப்பலில் சமையல்காரராக இருந்த மிகைல் அகிமோவிச் என்பவர் அவருக்குப் புத்தகங்கள் படிப்பதற்கு ஆர்வம் ஊட்டினார். கோகோல், ஹேன்றி பீல்டிங் முதலான நாவல் ஆசிரியர்கள் அறிமுகமானார்கள். இதற்குப் பின் டுமாஸ், டெர்ரெல்கெஸ்டாவ், மாண்டிபன், லெர்மான்டொவ், தாஸ்தாவ்ஸ்கி, டால்ஸ்டாய், துர்க்கனேவ், டிக்கன்ஸ், ஆண்டான் செகாவ் முதலானோரின் படைப்புகளைச் சிறிது காலத்திலேயே படித்து முடித்தார். அவை எழுந்த காலப்பின்னணி சமுதாயக் கொடுமைகள் அடக்கு முறைகள் துன்ப துயரங்கள் நிரம்பியது. எனவே இயல்பாகவே அலக்ஸி இடர்ப்பட்ட மக்கள் பக்கம் நின்றார்.
+சோஷலிச கம்யூனிச கருத்துகள் ஐரோப்பிய நாடுகள் முழுவதிலும் பரவி உறக்கத்தில் ஆழ்ந்திருந்த மக்களைத் தட்டி எழுப்பின.
+ரஷ்யாவை ஆண்ட ஜார் மன்னன் மக்களுக்குக் கொடுமை இழைப்பதை ஒரு பெருமையாகவே கருதினான். எதேச்சதிகாரமும் கொடுங்கோன்மையும் அடக்குமுறையும் ஜார் மன்னனுக்கு கைவந்த கலை.
+இலக்கிய வாசிப்பு படிப்பு - பயிற்சி அவருடைய அறிவைக் கூராக்கியது. சிந்தனையை விரிவாக்கியது. அவரும் எழுதத் தொடங்கினார்.
+இதற்கு முன் தன் வாழ்க்கையில் நேரிட்ட துன்பதுயரங்களையும் இழிவுகளையும் நினைத்துத் தற்கொலை செய்துகொள்ள முயன்றார். உடலில் குண்டு பாய்ந்தும் பிழைத்துக்கொண்டார். பின் பல வேலைகளில் உழன்று, 1889 ஆம் ஆண்டு மாஸ்கோ சென்று லியோ டால்ட்டாயைச் சந்திக்க முடியாமல் திரும்பினார். கொரலென்கொ என்னும் புகழ்மிக்க எழுத்தாளரைச் சந்தித்துத் தாம் எழுதிய கவிதையைப் பரிசீலிக்கத் தந்தார், 1891-ஆம் ஆண்டு ரஷ்யநாடு முழுவதும் முக்கிய இடங்களுக்குச் சுற்றுப்பயணம் செய்து வந்தார். இடையில் அவருடைய “கன்னியும், மரணமும்” என்னும் கவிதை வெளிவந்தது. தொடர்ந்து பல கவிதைகளும் சிறுகதைகளும் புதினங்களும் எழுதினார். அவருடைய பெயரும் மக்சிம் கார்க்கி என்றாயிற்று. இதுவே உலகம் முழுவதும் புகழ்பெற்று நிலைபெறுவதாயிற்று, கார்க்கி என்பதற்குக் கசப்பு என்பது பொருள்.
+1896ஆம் ஆண்டு அச்சுப்பிழை திருத்துவதில் துணைவராக இருந்த ஏகடரினா பவ்லோவ்னா வால்ழினா என்னும் பெண்மணியை வாழ்க்கைத் துணைவியாகத் தேர்ந்தெடுத்தார். 1898ல் “படங்களும் கதைகளும்” தொகுதிகள் வெளிவந்தன, அவர் டிப்லிஸ் நகரில் இருந்தபோது சமூக ஜனநாயக அமைப்புடன் தொடர்புகொண்டு இருந்ததற்காகச் சிறையில் அடைக்கப்பட்டார். புகழ்பெற்ற வரலாற்றாளர் கிப்பன்ஸ் (Gibbons) என்பவருடைய ரோமானியப் பேரரசின் எழுச்சியும் வீழ்ச்சியும் என்னும் நூலைப் படித்தார். சிறையில் இருந்து விடுதலையான பின்னர் தொடர்ந்து காவல்துறையின் கண்காணிப்பில் இருந்தார்.
+1899ல் அவருடைய “பாமா கோர்தயேவ்” என்னும் நாவல் வெளிவந்தது. 1990ல் லியோடால்டாயைச் சந்தித்துக் கருத்து பரிமாறிக்கொண்டார். 1901ஆம் ஆண்டு புரட்சி இயக்கத்தில் மிக தீவிரமாகப் பங்குபெற்றார். அறிவியல் கழகம் அவரை உறுப்பினராகச் சேர்த்துக்கொண்டது பெட்டிபூர்ஷ்வா&quot; என்னும் நாவல் 1902இல் வெளிவந்தது. தீவிரவாத நடவடிக்கைகள் காரணமாக அரசு அவரை அர்சமஸ் நகருக்கு கடத்திற்று. “சோர்மோவோ” தொழிலாளர்கள் கிளர்ச்சியில் பங்கு பெற்றார். நிஜினி நோவோகார்டில் தொழிலாளர் ஆர்ப்பாட்டம் தீவிரமாக நடைபெற்றது. அதே ஆண்டு மாஸ்கோ கலையரங்கில் அவருடைய “அடிஆழம்” “கோடை மக்கள்” என்ற நாவல்கள் நாடகமாக அரங்கேற்றப்பட்டன. 1903ல் தீவிர பொல்ஷிக் அனுதாபி ஆனார்.
+1905ல் போராட்டத்தில் திரண்டிருந்த தொழிலாளர்களுக்கும் ஜார் படைவீரர்களுக்கும் இடையே மோதல் ஏற்படும் என்று அஞ்சி ரெட்ஸென்ஸ்கி என்னும் உள் விவகாரத் துணை அமைச்சரிடம் அறிவாளிகள் குழுவுக்குத் தலைமை தாங்கி நடத்திச் சென்று விண்ணப்பம் தந்தார். அது தோல்வியில் முடிந்தது. போலிஸ் காவலர்கள் தொழிலாளர்களை நரவேட்டை ஆடினார்கள், இதனை “ரத்த ஞாயிறு” என்பர். அது கார்க்கியை மேலும் தூண்டிற்று. இதனால் பலமுறை சிறைப்பட்டார். சிறையில் “கதிரவன் குழந்தைகள்” எழுதினார். 1905ஆம் ஆண்டில்
+போல்ஷிவிக் கட்சி உறுப்பினரானார்.
+ரஷ்யப்புரட்சி நிலைமையை அமெரிக்க மக்களுக்கு விளக்கிச் சொல்ல 1906ஆம் ஆண்டு போல்ஷிவிக் கட்சி கார்க்கியை அமெரிக்காவுக்கு அனுப்பியது. மனைவி உடன்வர அமெரிக்கா சென்றார். அமெரிக்காவிலிருந்த ரஷ்யப் பிரதிநிதியும் ஜாரின் அடிவருடிகளும் அவரை எதிர்த்துப் பிரச்சாரம் செய்தனர். பலிக்கவில்லை , எச்.ஜி.வெல்ஸ், எர்னஸ்ட் ரூதர்போர்டு, வில்லியம் ஜேம்ஸ் தொடர்பு கிடைத்தது. இதன் விளைவாக கார்க்கி நாடு திரும்பிய பின் ஆப்பிள்டன் மேகஜின் ‘தாய்’ தொகுதி வெளியிட்டது.
+1907இல் போல்ஷிவிக் கட்சியில் ஐந்தாவது காங்கிரஸில் பங்கு பெற்றார். “தாய்” முழுதும் வெளிவந்தது. 1908 முதல் கார்க்கி லெனின் தொடர்பு வலுவடைகிறது. “ஒப்புதல்” “கழிக்கத் தகுந்தவன்” என்னும் புதினங்கள் வெளிவந்தன. 1909இல் கார்க்கியின் படைப்புகள் ரஷ்யமக்கள் - உழைக்கும் வர்க்கங்கள் எழுச்சிக்குப் பெரும் துணை செய்து வருகின்றன என்று லெனின் கார்க்கியை மனமாரப் பாராட்டிக் கடிதம் வரைந்தார்.
+1909ஆம் ஆண்டு ரஷ்யா உழைப்பாளிகளுக்குக் கேப்ரி (இத்தாலி) யில் பயிற்சிப்பள்ளி தொடங்குவதற்கு முயற்சி மேற்கொண்டார். “ஒகுராவ், சிறுபட்டணம்” என்னும் புதினமும் “கோடை” என்னும் சிறுகதையும் வெளியாயின.
+1910 இல் போல்ஷிவிக் கட்சியின் மிக முக்கியமான தலைவரான ஷெர்சின்ஸ்கியைச் சந்தித்து உரையாற்றினார். ஷெர்சின்ஸ்கி தம் நண்பருக்கு வரைந்த கடிதத்தில் எடுத்த எடுப்பிலேயே-முதல் சந்திப்பிலேயே கார்க்கி தம்மைக் கவர்ந்துவிட்டதாயும், அவருடைய மனத்தூய்மையும் உறுதியும் வியப்பளித்ததாயும் எழுதினார், “மாட்வி கொழம்கின் வாழ்க்கை” என்ற புதினம் பெர்லினில் வெளிவந்தது. மகத்தான அக்டோபர் புரட்சிக்கு முன் பல இலக்கியங்கள் வெளிவந்தன. 1915இல் புரட்சிக் கவிஞர் மாயகோவ்ஸ்கி இவரைச் சந்தித்து நண்பரானார்.
+1917, 1921ல் புரட்சி முடிந்து, சில ஆண்டுகளில் லெனின் - கார்க்கி உறவு வலுப்பட்டதோடு சில தகராறுகளும் ஏற்பட்டன. கார்க்கி அறிவாளிகளிடையே ஏற்பட்ட புரட்சிகர உணர்வுகளைப் பெரிதும் மதித்தார். அதேபோது அந்த அறிவாளி வர்க்கம் தொழிலாளர் - விவசாயிகள் எழுச்சியையும் புரட்சி வேகத்தையும் கண்டு அதிர்ந்தது.இக்காலக்கட்டத்தில் கார்க்கி எடுத்த சில தவறான நிலைப்பாடுகளை லெனின் திருத்தினார். கார்க்கியை லெனின் அதிகமாக மதித்தார், நேசித்தார். ஆனால், அதேபோது அவருடைய பிழைகளைத் திருத்தத் தயங்கியதுஇல்லை. கார்க்கி உடல் நலமிழந்தபோது லெனின் சிகிச்சைக்காக பின்லாந்துக்கும் ஜெர்மனிக்கும் செல்ல ஏற்பாடுகள் செய்தார். 1923 இல் “என் பல்கலைக்கழகங்கள்”, “காவலாளி”, “முதல் காதல்” வெளிவந்தன.1924இல் லெனின் மறைந்தார். லெனின் வாழ்க்கை பணி பற்றிய நினைவுக் குறிப்புகளை கார்க்கி உணர்வு பொங்க எழுதினார். அவர் சிலகாலம் இத்தாலியில் வசிக்க வேண்டிஇருந்தது. அப்போது வி. ஐ. லெனின் என்னும் அவருடைய நூல் வெளிவந்தது, 1925-27 இல் “அசாதாரணம் பற்றிய கதை”, ”ஆர்ட்டமனாவ்” “செர்ஜீ ஏசனின்” “கிளிம்சம்கின் வாழ்க்கை” ஆகிய நூல்கள் வெளிவந்தன.
+1928 மார்ச் 28 கார்க்கி அறுபது ஆண்டு நிறைவு, உலகப் புகழ்பெற்ற எழுத்தாளர்கள் பாராட்டுக் கடிதங்கள் குவிந்தன.இத்தாலியிலிருந்து சோவியத் நாடு திரும்பி வந்து சேர்ந்தார்.முதலில் லெனின் நினைவாலயம் சென்று மரியாதை செலுத்தினார். இலக்கியப்பணியில் ஆழ்ந்தார். செய்தித்தாள்களிலும், இலக்கிய இதழ்களிலும் கட்டுரைகள் எழுதிக் குவித்தார். 1930 நவம்பர் 15இல் “பிராவ்தா”வில் அவர் எழுதிய “பகைவன் பணியவில்லை என்றால், அவன் அழிக்கப்பட வேண்டும்” என்னும் கட்டுரை பிற்காலத்திலேபாசிசத்தை எதிர்த்து நடைபெற்ற இரண்டாவது உலகப்போர்க் காலத்தில் சோவியத் மக்களைத் தட்டி எழுப்பத் துணை செய்தது. 1933-ல் வெளிவந்த ”சோஷலிச எதார்த்தவாதம்” என்னும் கட்டுரை, புதிய இலக்கியச்சிந்தனை உத்திக்கு அடிக்கல் நாட்டிற்று. 1934 இல் சோவியத்கம்யூனிஸ்ட் கட்சியின் பதினேழாவது காங்கிரசில் சிறப்புப்பிரதிநிதியாகப் பங்கு பெற்றார். ஆகஸ்டு 17 அன்றுஅனைத்து சோவியத் எழுத்தாளர்கள் மாநாட்டுத்தலைவராகத் தேர்ந்தெடுக்கப்பட்டார். ”சோவியத் இலக்கியம்” என்னும் தலைப்பில் வழிகாட்டி உரையாற்றினார். 1935 ஆம் ஆண்டு ரோமெய்ன் ரோலண்டும் அவர் மனைவி மரியா பாவ்லோவ்னாவும் சோவியத் நாடு வந்து, சிலகாலம் கார்க்கியுடன் தங்கினார்கள். கார்க்கியின் படைப்புகள் மீண்டும் மீண்டும் அச்சாயின. 1936இல் கார்க்கி நோய்வாய்பட்டார். குடும்பத்தினர் கட்சியினர் முழு அக்கறைகாட்டியும் ஜூன் 18 அன்று காலை 11 மணிக்கு உலகப் பாட்டாளி வர்க்கத்தின் ஒப்புயர்வற்ற இலக்கியப் படைப்பாளி உயிர் நீத்தார்.
+(மாஸ்கோ முன்னேற்றப் பதிப்பகம் வெளியிட்ட மக்சீம் கார்க்கி நூல் தொகுப்பு எண் 10 இல் கண்ட விவரங்களில் சில தொகுத்துத் தரப்பட்டுள்ளன)</p>
+<p>புரட்சி விதைகளை விதைத்து
+புதியதோர் உலகம் படைத்து
+எழுச்சி படைத்திட்ட “தாய்”
+இதோ வருகிறாள்….
+கார்க்கியின் கருத்தோவியம்
+வாசகர்க்குக் கனியமுதம்.
+படிப்போம்
+பயனுள்ள பணிகள் செய்வோம்.</p>
+<p>இந்நூலுக்கான பதிப்புரை, கதைச்சுருக்கம், கார்க்கியின் வாழ்க்கைக்குறிப்பு, ஆகியவற்றை அழகுற ஆக்கித்தந்து நூலுக்கு மெருகூட்டிய மார்க்சிய சிந்தனையாளரும் எழுத்தாளருமான ஆர். பார்த்தசாரதி M.A., B.A., (Hons) LL.B., C.A.LL.B., அவர்கள் பதிப்பகத்தாரின் நன்றிக்குரியவர்.</p>
+<p>பொலேவோய் ப. - உண்மை மனிதனின் கதை
+சோவியத் மக்கள் நாஜி ஜெர்மனியை எதிர்த்து நடத்திய மாபெரும் தேசபக்தப் போரின்போது, 1941 மாரிக் காலத்தில் அலெக்செய் மரேஸ்யெவ் (இந்த நூலில் வரும் மெரேஸ்யெவின் முன்மாதிரி) எனும் இளம் போராளி விமானி எண்ணிக்கையில் மிகுதியாக இருந்த விரோதிகளுடன் நடந்த கடும் சண்டையில் சுட்டுவீழ்த்தப்பட்டார். 18 நாட்கள் இரவு பகல் பாதங்கள் நசுங்கிய நிலையில், பசியுடனும் குளிரில் விறைத்தும் பனி மூடிய காடுகளின் ஊடே ஊர்ந்து சென்று சோவியத் படையணிகளைப் போய் அடைந்தார்.
+முகவுரையில் மரேஸ்யெவ் - இப்போது அவர் வரலாற்று இயல் காண்டிடேட்டாகவும் பழம்பெரும் போர் வீரர்களின் சோவியத் கமிட்டியின் நிர்வாகச் செயலராயும் உள்ளார் - இந்த நூல் எவ்வாறு எழுதப்பட்டது என்பது பற்றியும் இதன் ஆசிரியர் பரீஸ் பொலேவோய் பற்றியும் கூறுகிறார்.</p>
+<p>முதல் பாகம்</p>
+
+  </div>
+</div>
+
+    </main>
+    <div class="side-bar">
+  
+  <p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/thaai/ch002/"
+    title="அதிகாரம் 01"
+  >
+    <i class="nav-menu fas fa-chevron-circle-right"></i>
+  </a>
+  
+</p>
+<p class="mb-1 mt-1 text-left">
+  
+  <i class="nav-menu-disabled fas fa-chevron-circle-left"></i>
+  
+</p>
+
+  
+  <a href="#" class="mb-1 mt-1 text-left">
+    <i
+      class="nav-menu fas fa-chevron-circle-up"
+      aria-label="Scroll to top"
+    ></i>
+  </a>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      title="Copy URL to share"
+      class="nav-menu fas fa-share-alt"
+    ></i>
+  </p>
+</div>
+
+<script>
+  function displayCopyMessage(bool) {
+    let alertMessage = "";
+    if (bool) {
+      alertMessage = "Link copied to clipboard";
+    } else {
+      alertMessage = "Link could not be copied to clipboard";
+    }
+    let copiedMessage = document.createElement("div");
+    copiedMessage.id = "copiedMessage";
+    copiedMessage.textContent = alertMessage;
+    copiedMessage.classList.add(
+      "bg-warning",
+      "shadow",
+      "d-block",
+      "text-center"
+    );
+    document.body.appendChild(copiedMessage);
+
+    setTimeout(function() {
+      copiedMessage.style.opacity = 0;
+    }, 500);
+    setTimeout(function() {
+      document.body.removeChild(copiedMessage);
+    }, 1500);
+  }
+
+  let clipboard = new ClipboardJS(".fa-share-alt", {
+    text: function() {
+      return "https:\/\/thanithamizhakarathikalanjiyam.github.io\/more_books\/thaai\/ch001\/";
+    }
+  });
+
+  clipboard.on("success", function() {
+    displayCopyMessage(true);
+  });
+
+  clipboard.on("error", function() {
+    displayCopyMessage(false);
+  });
+</script>
+
+    <footer class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="d-flex flex-column">
+    <span class="mb-1">
+      Tamil Collected Books
+      &middot;
+      (@)
+    </span>
+  </div>
+  <p class="about text-left mb-0">
+    
+      
+    
+    
+    <a href="https://thanithamizhakarathikalanjiyam.github.io/"> thanithamizhakarathikalanjiyam</a>.
+  </p>
+</footer>
+
+  </body>
+</html>

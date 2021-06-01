@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Pitchaimuthu Shelf</title>
+  <meta name="description" content="Some books collected by Pitchaimuthu" />
+  <meta name="author" content="Pitchaimuthu" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="generator" content="kitab theme by Darshan in Hugo 0.83.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/more_books/css/kitab.css" />
+
+  <script src="/more_books/js/myFunctions.js"></script>
+  <script src="/more_books/js/clipboard.min.js"></script>
+</head>
+
+  <body class="container" style="max-width: 1024px;">
+    <nav class="mt-2 border-bottom">
+  <div class="d-flex flex-row position-relative">
+    <a href="/more_books/"
+      ><i title="Home" class="nav-menu mr-2 mt-1 fas fa-home"></i
+    ></a>
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-book"
+    onclick="expandMenu(this)"
+    title="Show all books"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2">
+      <strong>
+        Books
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/">
+            தாய்
+          </a>
+          by மாக்ஸிம் கார்க்கி
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/emma/">
+            Emma
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/tamilar_elutchi/">
+            தமிழரின் எழுச்சி
+          </a>
+          by இசையினியன்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/pride_and_prejudice/">
+            Pride <em>and</em> Prejudice
+          </a>
+          by Jane Austen
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-bars"
+    onclick="expandMenu(this)"
+    title = "Show Chapters"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="
+      position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2 rounded">
+      <strong class="mt-3">
+        
+        
+        தாய்
+        
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch001/">அதிகாரம் 00</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch002/">அதிகாரம் 01</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch003/">அதிகாரம் 02</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch004/">அதிகாரம் 03</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch005/">அதிகாரம் 04</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch006/">அதிகாரம் 05</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch007/">அதிகாரம் 06</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch008/">அதிகாரம் 07</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch009/">அதிகாரம் 08</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch010/">அதிகாரம் 09</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch011/">அதிகாரம் 10</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch012/">அதிகாரம் 11</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch013/">அதிகாரம் 12</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch014/">அதிகாரம் 13</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch015/">அதிகாரம் 14</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch016/">அதிகாரம் 15</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch017/">அதிகாரம் 16</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch018/">அதிகாரம் 17</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch019/">அதிகாரம் 18</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch020/">அதிகாரம் 19</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch021/">அதிகாரம் 20</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch022/">அதிகாரம் 21</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch023/">அதிகாரம் 22</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch024/">அதிகாரம் 23</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch025/">அதிகாரம் 24</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch026/">அதிகாரம் 25</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch027/">அதிகாரம் 26</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch028/">அதிகாரம் 27</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch029/">அதிகாரம் 28</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch030/">அதிகாரம் 29</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch031/">அதிகாரம் 30</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch032/">அதிகாரம் 31</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch033/">அதிகாரம் 32</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch034/">அதிகாரம் 33</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch035/">அதிகாரம் 34</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch036/">அதிகாரம் 35</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch037/">அதிகாரம் 36</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch038/">அதிகாரம் 37</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch039/">அதிகாரம் 38</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch040/">அதிகாரம் 39</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch041/">அதிகாரம் 40</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch042/">அதிகாரம் 41</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch043/">அதிகாரம் 42</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch044/">அதிகாரம் 43</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch045/">அதிகாரம் 44</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch046/">அதிகாரம் 45</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch047/">அதிகாரம் 46</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch048/">அதிகாரம் 47</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch049/">அதிகாரம் 48</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch050/">அதிகாரம் 49</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch051/">அதிகாரம் 50</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch052/">அதிகாரம் 51</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch053/">அதிகாரம் 52</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch054/">அதிகாரம் 53</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch055/">அதிகாரம் 54</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch056/">அதிகாரம் 55</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch057/">அதிகாரம் 56</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch058/">அதிகாரம் 57</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/ch059/">அதிகாரம் 58</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</nav>
+
+    <main class="mt-3" style="margin-left: 32px;">
+      
+<div class="mb-2 p-3 shadow position-relative">
+  <small
+    class="bg-white pl-1 pr-1 rounded"
+    style="background-color: #f3f3ef !important; position: absolute; top: -0.75em; right: 1em"
+  ><div>
+  
+
+
+
+
+
+
+<span style="font-size: 0.9em;"><i
+    aria-label="home"
+    class="fas fa-home"
+  ></i
+  ></span>
+
+
+
+<span style="font-size: 0.9em;"> / தாய்</span>
+
+
+
+<span style="font-size: 0.9em;"> / அதிகாரம் 20</span>
+
+</div>
+
+
+</small>
+  <h2>அதிகாரம் 20</h2>
+  <div class="rounded">
+    <p>20
+ஒரு நாள் இரவில் தாய் மேஜையருகே அமர்ந்து காலுறை பின்னிக்கொண்டிரூந்தாள்; ஹஹோல் பண்டைக்கால ரோமானிய அடிமைகளின் புரட்சி சரித்திரத்தை அவளுக்குப் படித்துக் காட்டிக் கொண்டிருந்தான், அந்தச் சமயம் யாரோ கதவைப் பலமாகத் தட்டும் ஓசை கேட்டது. ஹஹோல் எழுந்து சென்று கதவைத் திறந்தான். நிகலாய் வெஸோவ்ஷிகோல் கையில் ஒரு மூட்டையுடன் உள்ளே வந்தான், அவனது தொப்பி தலையின் பின்புறமாகச் சரிந்து போயிருந்தது. முழங்கால் வரையிலும் சேறு தெறித்துப் படிந்திருந்தது.
+“போகிறபோது இங்கே விளக்கு வெளிச்சம் தெரிந்தது. சரி, பார்த்துவிட்டுப்போகலாம் என்று உள்ளே வந்தேன். சிறையிலிருந்து வருகிற வழி’ என்று ஒரு விபரீதத் தொனியில் பேசினான் அவன். பிறகு பெலகேயாவின் கரத்தைப் பிடித்து மன நிறைவோடு குலுக்கிவிட்டு மேலும் சொன்னான்; ‘பாவெல் தன் வணக்கங்களைத் தெரிவிக்கச் சொன்னான்.”
+அவன் மிகவும் சிரமப்பட்டுக் கீழே உட்கார்ந்தான். சோர்ந்து மங்கிய சந்தேகக் கண்களோடு அறையைச் சுற்றுமுற்றும் பார்த்துக்கொண்டான்.
+முன்பெல்லாம் தாய்க்கு அவனைக் கண்டால் பிடிக்கவே பிடிக்காது. அவனது விகாரமான மொட்டையடித்த தலையும், சின்னஞ்சிறு கண்களும் அவளை ஏனோ பயமுறுத்திக் கொண்டேயிருந்ததுண்டு. ஆனால் அன்றிரவிலோ அவனைப் பார்த்தபோது அவள் மகிழ்ச்சிக் கொண்டாள். அவனோடு பேசும்போது அன்பு ததும்பப் புன்னகை செய்தாள்.
+“நீ எவ்வளவு மெலிந்துவிட்டாய்! அந்திரியூஷா, இவனுக்கு ஒரு குவளை நேநீர் கொடுப்போம்.”
+“நான் தேநீர்ப் பாத்திரத்தை அப்போதே கொதிக்க வைத்தாயிற்றே” என்று சமையல் கட்டிலிருந்தவாறே பதில் கொடுத்தான் ஹஹோல்.
+“சரி. பாவெல் எப்படி இருக்கிறான்? உன்னைத் தவிர வேறு யாராவது விடுதலையானார்களா?”
+நிகலாய் தலையைத் தொங்கவிட்டான்.
+“பாவெல் இன்னும் பொறுமையோடு காத்துக்கொண்டு தானிருக்கிறான். அவர்கள் என்னை மட்டும்தான் விடுதலை செய்தார்கள்.” அவன் தன் கண்களைத் தாயின் முகத்துக்கு நேராக உயர்த்தினான்; பற்களை இறுக கடித்துக்கொண்டு மெதுவாகப் பேசினான்; “நான் அவர்களிடம் சொன்னேன்! ‘போதும் போதும் என்னைப் போகவிடுங்கள். இல்லையென்றால் நான் இங்கேயே உங்களில் யாரையாவது கொன்று தீர்த்துவிட்டு நானும் தற்கொலை செய்து கொள்வேன்’ என்று சத்தம் போட்டேன். எனவே அவர்கள் என்னை விட்டுவிட்டார்கள்.”
+“ஆ!” என்று பின்வாங்கியவாறு அதிசயித்தாள் தாய். அவனது குறுகிய குறுகுறுத்த கண்களை அவளது கண்கள் சந்தித்தபோது அவள் தன்னையுமறியாமல் கண்களை மூடிக்கொண்டாள். ’பியோதர் மாசின் எப்படியிருக்கிறான்? இன்னும் கவிதை எழுதிக் கொண்டுதான் இருக்கிறானா?” என்று சமையலறையிலிருந்தவாறே கத்தினான் ஹஹோல். “எழுதுகிறான். ஆனால் அதெல்லாம் எனக்குப் புரிவதில்லை’ என்று தலையை அசைத்துக்கொண்டு சொன்னான் நிகலாய். “அவன் தன்னைப்பற்றி என்னதான் நினைத்திருக்கிறானோ? வானம்பாடியென்று நினைப்பு போலிருக்கிறது! அவர்கள் அவனைக் கூண்டில் பிடித்து அடைத்துவிட்டார்கள்; அந்த வானம்பாடியோ உள்ளேயிருந்து கொண்டு பாட்டுப்பாடுகிறது. எனக்கு ஒரு விஷயம் மட்டும் தெளிவாகப் படுகிறது. நான் என் வீட்டுக்குப் போக விரும்பவில்லை !”
+“வீட்டுக்குப் போய்த்தான் ஆகப்போகிறதென்ன,” என்று முனகினாள் தாய். ’காலியான வீடு, எரியாத அடுப்பு, எல்லாம் குளிர்ந்து விறைத்துக் கிடக்கும்…..&quot;
+அவன் பதில் சொல்லவில்லை. கண்களை மட்டும் சுருக்கிச் சுழித்தான். பிறகு தன் பாக்கெட்டிலிருந்து சிகரெட் பெட்டியை எடுத்து, ஒரு சிகரெட்டைப் பற்றவைத்துக்கொண்டான். தன் முன்னே திரிதிரியாகப் பறந்து செல்லும் புகை மண்டலத்தை ஒரு சோம்பேறி நாயைப் போல வெறுமனே கூர்ந்து கவனிக்க ஆரம்பித்தான் நிகலாய்.
+“ஆமாம். எல்லாமே குளிர்ந்து போய்த்தான் கிடக்கும். தரையில் பாச்சைகள் செத்து விறைத்துக் கிடக்கும். எலிகள்கூட செத்துக்கிடக்கும் பெலகேயா நீலவ்னா, இன்று இரவு நான் இங்கே கழிக்கிறேனே, முடியுமா?” என்று அவளைப் பார்க்காமலேயே கரகரத்துப் பேசினான் அவன்.
+“தாராளமாய். இதற்குக் கேட்க வேறு வேண்டுமா?” என்று அவசர அவசரமாகப் பதிலளித்தாள் அவள். அவனது முன்னிலையில் இருப்பது அவளுக்கு என்னவோ போலிருந்தது.
+“இந்தக் காலத்திலே, பிள்ளைகள் தங்கள் பெற்றோர்களுக்காகக் கூட வெட்கித் தலைகுனிய வேண்டியிருக்கிறது. . …”
+“என்ன?” என்று திடுக்கிட்டு அதிசயத்தோடு கேட்டாள் தாய்.
+அவன் அவளைப் பார்த்தான். பிறகு கண்களை மூடிக்கொண்டான். அப்போது அவனது அம்மைத் தழும்பு விழுந்த முகத்தில் கண்களும் குருடாகிப் போய்விட்டன் போலத் தோன்றியது.
+“இல்லை. பெற்றோர்களைக் கண்டு கூட பிள்ளைகள் வெட்கப்பட வேண்டியிருக்கிறது என்று சொன்னேன்” என்று பெருமூச்சுடன் பதிலளித்தான் அவன், ’பாவெல் உன்னைக் கண்டு வெட்கப்படவில்லை. நானோ என் தந்தைக்காக வெட்கப்பட வேண்டியிருக்கிறது. நான் இனிமேல் அவன் வீட்டில் காலடிகூட எடுத்துவைக்க மாட்டேன். எனக்கு அப்பனே கிடையாது. எனக்கு வீடும் கிடையாது. போலீஸ்காரர்கள் என்னைக் காவலில் வைத்திராவிட்டால், நான் சைபீரியாவுக்கே போயிருப்பேன். அங்கு கடத்தப்பட்டு, அங்கிருப்பவர்களை விடுதலை செய்வேன், ஓடிப்போய்விட உதவி செய்வேன். ….&quot;
+அவன் துயரப்படுகிறான் என்பதை அவளது உணர்ச்சிபூர்வமான இதயம் உணர்ந்தது. எனினும் அவனது வேதனை அவள் இதயத்தில் அனுதாப உணர்ச்சியை உண்டாக்கவில்லை.
+“அப்படி நினைத்தால், நீ போய்விடுவதே நல்லது” என்று பதில் சொன்னாள். ஏதாவது பதில் சொல்லாதிருந்தால் அவனைத் துன்புறுத்தியதாகும் எனக் கருதியே இப்படிச் சொன்னாள்,
+அந்திரேய் சமையலறையிலிருந்து வெளியே வந்தான்.
+&ldquo;நீ என்ன உபதேசிக்கிறாய்?’ என்று கேட்டுக்கொண்டே சிரித்தான்.
+தாய் எழுந்து நடந்துகொண்டே, “நமக்கு ஏதாவது சாப்பாட்டுக்கு வழி பண்ணப் போகிறேன்” என்று தனக்குள் சொல்லிக்கொண்டாள்.
+ஹஹோலையே சிறிது நேரம் கூர்ந்து பார்த்துவிட்டு நிகலாய் திடீரென்று சொன்னான்.
+’எனக்குச் சில பேரைக் கண்டால் கொன்று தீர்க்கவேண்டும் போலிருக்கிறது.&rdquo;
+“ஓஹோ! அப்படியா? எதற்காக?” என்றான் ஹஹோல்.
+&ldquo;அவர்களை ஒழித்துக் கட்டத்தான்.’
+நெட்டையாகவும் மெலிவாகவும் இருந்த ஹஹோல் அந்த அறையின் மத்தியில் வந்து நின்றுகொண்டு, பாதங்களை உயர்த்தித் தன் உடம்பை ஆட்டிக் கொண்டான்; நிகலாயைப் பார்த்தான். நிகலாயோ நாற்காலியில் அசையாமல் சிலைபோல அமர்ந்து புகை மண்டலத்தைப் பரப்பிக்கொண்டிருந்தான். அவனது முகம் திட்டுத் திட்டாகச் சிவந்து கனன்றது.
+“நான் அந்தப் பயல்-இலாய் கர்போவின் மண்டையை உடைக்கிறேனா இல்லையா, பார்!”
+“ஏன்?”
+“அவன் ஒரு ஒற்றன்; கோள் சொல்லி! அவன்தான் என் அப்பனைக் கெடுத்தான். அவன் என் தந்தையைத் தன் கையாளாக மாற்றிவிட்டான்” என்று அமுங்கிப்போன குரோத பாவத்தோடு அந்திரேய் பார்த்துக்கொண்டே பேசினான். &ldquo;அப்படியா! ஒரு முட்டாள்தான் உன்னை இப்படி எதிர்ப்பான்’ என்றான் ஹஹோல்.
+“முட்டாளும் புத்திசாலியும் ஒரே இனம்தான்’ என்று உறுதியோடு சொன்னான் நிகலாய். “உன்னையும் பாவெலையும்தான் பாரேன், நீங்கள் இரண்டு பேரும் புத்திசாலிகள்தான். இருந்தாலும் நீங்கள் பியோதர் மாசிளையும், சமோய்லவையும் பார்க்கிற மாதிரியா என்னைப் பார்க்கிறீர்கள்? இல்லை, நீங்கள் ஒருவரையொருவர் மதித்துக் கொள்வது போல் என்னை மதிக்கிறீர்களா? பொய் சொல்லாமல் சொல்லு. எப்படியானாலும் நான் உன்னை நம்பமாட்டேன். நீங்கள் எல்லோரும் ஒன்று சேர்ந்துகொண்டு என்னை ஒதுக்கி வைக்கிறீர்கள். தனிமைப்படுத்துகிறீர்கள்.”
+“நிகலாய்! உன் மனம் புண்பட்டிருக்கிறது” என்று அன்பும் இதமும் ததும்புச் சொல்லிக்கொண்டே அவனருகே சென்று உட்கார்ந்தான் ஹஹோல்.
+’என் மனம் புண்பட்டுத்தான் போயிருக்கிறது; உங்கள் மனமும் அப்படித்தான். ஆனால் உங்கள் வேதனை என் வேதனையைவிடக் கொஞ்சம் உயர்ந்த ரகம். அவ்வளவுதான்! நாம் அனைவரும் ஒருவருக்கொருவர் போக்கிரிகளாக நடந்துகொள்கிறோம். அவ்வளவுதான், நான் சொல்வேன், நீ இதற்கு என்ன சொல்லப் போகிறாய்? உம். சொல்வதைச் சொல்லு.&rdquo;
+அவன் அந்திரேயின் முகத்தைக் கூரிய கண்களால் பார்த்தான்; இறுக்க கடித்த பற்களோடு பதிலுக்காகக் காத்திருந்தான். அவனது சிவந்த முகத்தில் உணர்ச்சியின் உத்வேகம் மாறவில்லை; எனினும் தடித்த உதடுகள் மட்டும் நெருப்பால் சூடுபட்டதுபோல் நடுங்கின.
+‘நான் எதுவுமே சொல்ல முடியாது’ என்று கூறிக்கொண்டே குரோதம் நிறைந்த நிகலாயின் பார்வைக்கு எதிராக தனது நீலநிறக் கண்களில் அன்பு நிறைந்த சிரிப்புக் குமிழிடப் பார்த்தான் ஹஹோல். ’இதயத்தின் சகல புண்களும் இரத்தம் கொட்டிக் கொண்டிருக்கும் ஒருவனோடு எதை விவாதித்தாலும் வேதனைதான் அதிகரிக்கும், அது எனக்குத் தெரியும். தெரியும் தம்பி!&rdquo;
+&ldquo;நீ என்னோடு விவாதிக்க முடியாது. எனக்கு எப்படியென்று தெரியாது’ என்று தன் கண்களைத் தாழ்த்திக்கொண்டே முனகினான் நிகலாய்.
+“நாம் ஒவ்வொருவரும் தனித்தனி முள்ளடர்ந்த பாதையில்தான் நடந்து சென்றிருக்கிறோம். உன்னைப்போல ஒவ்வொருவருக்கும் துன்பம் எதிர்ப்பட்டிருக்கிறது. …” என்றான் ஹஹோல். “நீ எளக்கு எந்தச் சமாதானமும் சொல்ல முடியாது’ என்று நிகலாய் மெதுவாகச் சொன்னான்,”என் இதயம் ஓநாயைப்போல் உறுமி ஊளையிட்டுக்கொண்டிருக்கிறது.”
+&ldquo;நான் உனக்கு எதுவுமே சொல்ல விரும்பவில்லை என்றாலும் உன்னுடைய இந்தச் சஞ்சலம் போய்விடும்: பரிபூரணமாகப் போகாவிட்டாலும். ஓரளவாவது போய்விடும் என்பதுமட்டும் எனக்குத் தெரியும்’
+அவன் லேசாகச் சிரித்தான்; பிறகு நிகலாயின் தோள்பட்டைமீது தட்டிக் கொடுத்துக்கொண்டு பேசத் தொடங்கினான்.
+“இது இருக்கிறதே, இது ஒரு குழந்தை நோய் மாதிரி: மணல்வாரி நோய் மாதிரி. நம் எல்லோருக்குமே இந்த நோய் என்றாவது ஒரு நாள் வந்துதான் தீரும். பலமுள்ளவனை அது அவ்வளவாகப் பாதிக்காது; பலமில்லாதவர்களை மோசமாகவும் பாதிக்கக்கூடும். இந்த நோய் எப்போது பற்றும் தெரியுமா? நம்மை நாமே உணர்ந்துகொள்ள முனையும் சமயம் பார்த்து, எனினும் வாழ்க்கையைப் பரிபூரணமாக உணர்ந்துகொள்ளாமல், அதில் நமக்குரிய இடத்தை உணர்ந்து கொள்ளாமல் இருக்கின்ற குறைப்பக்குவ சமயம் பார்த்து, நம்மை வந்து பற்றிக்கொண்டுவிடும். நீதான் உலகத்திலேயே உயர்ந்த ரகச் சரக்கு. என்றும். எனவே ஒவ்வொருவரும் உன்னைக் கடித்துத் தின்னவே பார்க்கிறார்கள் என்றும் உனக்குத்தோன்றும். ஆனால் கொஞ்ச காலம் போனால், எல்லோருடைய இதயங்களும் உன் இதயத்தைப் போலவேதான் இருக்கின்றன. -என்ற உண்மையை நீ உணர்ந்துகொள்வாய். உணர்ந்த பின்னர் உன் மனம் ஓரளவு சமாதானம் அடையும். கூப்பிடு தூரத்துக்குக்கூட ஒலிக்காத உனது சின்னஞ்சிறு மணியைக் கோபுரத்தின் உச்சியிலே கொண்டு கட்டி ஊரெல்லாம் ஒலிக்கச் செய்ய விரும்பிய உன் அறியாமையைக் கண்டு நீயே நாணம்அடைவாய். உனது மணியை போன்ற பல்வேறு சிறுமணிகளின் சம்மேளனத்தோடுதான் உனது மணியோசையும் ஒன்றுபட்டு ஒலிக்க முடியும் என்பதை நீ உணர்வாய். நீ மட்டும் தன்னந்தனியே ஒலி செய்ய விரும்பினால், கோபுரத்தின் கண்டாமணியின் ஒலி உன் மணியோசையை மூழ்கடித்து விழுங்கிவிடும். எண்ணெய்ச்சட்டியில் விழுந்த ஈயைப் போல் உனது குரல் கிறுகிறுத்து வெளிக்குத் தெரியாமல் தனக்குத்தானே ஒலித்துக்கொண்டிருக்கும். நான் சொல்வது உனக்குப் புரிகிறதா?”
+“எனக்குப் புரியலாம்; ஆனால் நான் அதை நம்பத்தான் இல்லை’ என்று தலையை ஆட்டிக்கொண்டே சொன்னான் நிகலாய். ஹஹோல் சிரித்துக்கொண்டே துள்ளியெழுந்தான்; பரபரவென்று நடக்க ஆரம்பித்தான்.
+“ஏ, பார வண்டி!” நானுங்கூடத்தான் அதை நம்பவில்லையடா’ என்றான் ஹஹோல்.
+“என்னை ஏன் பார வண்டி என்று சொன்னாய்?” என்று உயிரற்ற சிரிப்போடு ஹஹோலைப் பார்த்துக் கேட்டாள் நிகலாய்.
+“ஏனா? நீ அப்படித்தானே இருக்கிறாய்?”
+திடீரென்று நிகலாயும் வாய்விட்டு உரக்கச் சிரித்தான், சிரிக்கும்போது அவன் வாய் விரிந்து திறந்திருந்தது.
+‘என்னப்பா இது.. என்ன சிரிப்பு?’ என்று நிகலாயின் முன்னால் சென்று நின்று வியப்புடன் கேட்டான் ஹஹோல். ‘இல்லை. திடீரென்று ஒன்றை நினைத்துக்கொண்டேன் சிரிப்பு வந்தது. உன் மனத்தைப் புண்படுத்த எண்ணுபவன் உண்மையிலேயே முட்டாளாய் தானிருக்கவேண்டும்’ என்றான் நிகலாய்.
+“என் உணர்ச்சினைய எப்படிப் புண்படுத்த முடியும்?” என்று தோளை உலுப்பிக்கொண்டே கேட்டான் ஹஹோல். “அது எனக்குத் தெரியாது’ என்று அன்பு கலந்த இனிய புன்னகையோடு சொன்னான் நிகலாய். ‘உன்னை ஒருவன் புண்படுத்திவிட்டால், பின்னால் அவன்தான் அதையெண்ணி வெட்கப்பட்டுக் கொள்ளவேண்டும். அதைத்தான் நான் சொல்ல வந்தேன்.’
+“வழிக்கு வந்துவிட்டாயா?” என்று சிரித்துக்கொண்டே கேட்டான் ஹஹோல்.
+&ldquo;அந்திரியூஷா?’ என்று சமையலறையிலிருந்து அழைத்தாள் தாய்.
+அந்திரேய் போய்விட்டான்:
+தன்னந்தனியாக விடப்பட்ட நிகலாய் சுற்றுமுற்றும் பார்த்தான். பிறகு முரட்டுப் பூட்சுக்குள் புதைந்திருந்த தன் காலை எடுத்து நீட்டினான்; காலைப் பார்த்தான்; தடித்து போன காலின் கெண்டைக்காலை தடவி விட்டுக்கொண்டான்; கையை உயர்த்தி தனது கொழுத்த உள்ளங்கையையும் உருண்டு திரண்டு, கணுக்களில் மஞ்சளாய்ப் பூ மயிர் வளர்ந்திருந்த தன் குட்டையான கைவிரல்களையும் பார்த்துக் கொண்டான். ஏதோ ஒரு கசப்புணர்ச்சியோடு கையை உதறிவிட்டு அவன் எழுந்தான்;
+அந்திரேய் தேநீர்ப் பாத்திரத்தை எடுத்துக்கொண்டு வந்த சமயத்தில் நிகலாய் கண்ணாடியின் முன் நின்ற தன்னுருவைப் பார்த்துக் கொண்டிருநதான். ’என் உருவைக் கண்ணாடியில் பார்த்தே எவ்வளவோ காலமாகிவிட்டது. என் மூஞ்சியில் விழிக்கக்கூட யாரும் துணிய மாட்டார்கள்!&rdquo; என்ற ஒரு வறட்டுப் புன்னகையோடு சொல்லிக் கொண்டான்.
+’உன் முகத்தைப்பற்றி இப்போது ஏன் கவலைப்பட ஆரம்பித்தாய்?” என்ற நிகலாயைக் கூர்ந்து கவனித்தவாறே கேட்டான் அந்திரேய்.
+‘அகத்தின் அழகு முகத்தில் தெரியும் என்று சாஷா சொன்னாள்.’
+‘அபத்தம்!&rdquo; என்று கத்தினான் ஹஹோல்’ அவள் மூக்கோ மீன் பிடிக்கிற தூண்டில் முள் மாதிரி இருக்கிறது; கன்னத்தின் எலும்புகளோ கத்திரிக்கோலைப்போல் இருக்கிறது. ஆனால் அவள் உள்ளமோ நட்சத்திரம் போல் ஒளிவிடுகிறது. அகத்தின் அழகாவது, முகத்தில் தெறிவதாவது?’
+நிகலாய் அவனைப் பார்த்தான்; சிரித்தான்.
+அவர்கள் தேநீர் அருந்த உட்கார்ந்தனர்.
+நிகலாய் ஒரு பெரிய உருளைக்கிழங்கை எடுத்தான்: ஒரு ரொட்டித் துண்டின் மீது அமிதமாக உப்பைத் தடவிக்கொண்டான். பிறகு மெதுவாக, ஒரு எருதைப்போல், அசைபோட்டுத் தின்னத் தொடங்கினான்.
+“சரி, இங்கே நிலைமை எல்லாம் எப்படி இருக்கிறது?” என்று தன்வாய் நிறைய ரொட்டித் துண்டு நிரம்பியிருக்கும் போதே கேட்டான் அவன்.
+தொழிற்சாலையில் தங்கள் பிரச்சாரம் எப்படி வலுப்பெற்று வருகிறது என்ற விவரத்தை உற்சாகத்தோடு எடுத்துரைத்தான் அந்திரேய். ஆனால் நிகலாயோ அதைக்கேட்டு மகிழ்வுறவில்லை; சோர்வடைந்தான்.
+’ரொம்பநாள் இழுத்தடிக்கிறது. இந்த ஆமைவேகம் கூடாது, அசுர வேகம் வேண்டும்!”
+தாய் அவனை ஏறிட்டுப் பார்த்தாள்: திடீரென ஒரு வெறுப்புணர்ச்சி அவள் மனதில் கிளர்ந்தெழுந்தது.
+“வாழ்க்கை என்பது குதிரையல்ல, நீ அதைச் சவுக்கால் அடித்து விரட்டமுடியாது!” என்றான் அந்திரேய்.
+நிகலாய் தன் தலையைப் பலமாக ஆட்டிக்கொண்டான்.
+“எவ்வளவு காலம்? என்னால் பொறுத்திருக்கவே முடியவில்லையே! நான் என்ன செய்வேன்?” ஏதோ ஒரு பதிலை எதிர்பார்த்து அவன் ஹஹோலின் முகத்தை நிராதரவான பாவத்தோடு பார்த்தான்.
+&ldquo;நாம் அனைவரும் இன்னும் கற்கவேண்டும்; கற்றதைப் பிறருக்குச் சொல்லிக் கொடுக்க வேண்டும். அதுதான் நாம் செய்யவேண்டிய காரியம்’ என்று தலையைக் குனிந்தவாறே சொன்னான் அந்திரேய்.
+“நாம் எப்போதுதான் சண்டைக்குக் கிளம்புவது?” என்றான் நிகலாய்.
+“நாம் போருக்குக் கிளம்புவது எப்போது என்பது எனக்குத் தெரியாது. ஆனால், அப்படிக் கிளம்புவதற்கு முன்னால், நாம் நம் எதிரிகளிடம் எத்தனையெத்தனையோ தடவை உதை படத்தான் செய்வோம். அது மட்டும் எனக்குத் தெரியும்” என்று சிரித்துக் கொண்டே சொன்னான் ஹஹோல், “இருக்கிற நிலையைப் பார்த்தால், நமது கைகளைப் பலப்படுத்திக் கொள்வதற்கு முன்னால் நமது மூளையைத்தான் முதலில் பயன்படுத்திக் கொள்ள வேண்டுமென்று எனக்குத் தோன்றுகிறது.”
+நிகலாய் மீண்டும் சாப்பிடத் தொடங்கினான்; அவனது அகன்ற முகத்தைக் கள்ளத்தனமாக ஓரக் கண்ணிட்டுப் பார்த்துக் கொண்டிருந்தாள் தாய். அவனைக் கண்டதும் தனக்குள் ஏற்படும் வெறுப்புணர்ச்சியைத் தவிர்ப்பதற்காக அந்தக் கனத்த சதுர உருவத்தில் ஏதோ ஒரு அமைதியைத் தேடுபவள் போலத் தோன்றினாள் அவள்.
+திடீரென்று நிமிர்ந்து நோக்கிய அவனது சிறிய கண்களின் கூரிய பார்வையை எதிர்கொள்ள முடியாமல், அவளது புருவங்கள் நெளிந்தன. அந்திரேய்க்கு அங்கு இருக்கவே நிலை கொள்ளவில்லை. எனவே அவன் வாய்விட்டுச் சிரித்தான், பிறகு பேசினான். பேச்சை இடையிலே நிறுத்திவிட்டு சீட்டியடித்துக் கொண்டிருந்தான்.
+அவனது அமைதியின்மையின் காரணத்தைத் தாய் உணர்ந்து கொண்டதாகத் தோன்றியது. நிகலாய் வாய்மூடி மௌனியாகி அசையாது உட்கார்ந்திருந்தான். ஹஹோல் ஏதாவது பேசினால் மட்டும் அதை எதிர்த்து வறட்டுத்தனமாக பொறுப்பற்று ஏதேனும் பதில் கூறிக்கொண்டிருந்தான் அவன்.
+அந்தச் சிறிய அறை அந்திரேய்க்கும் தாய்க்கும் நெரிசலாய் வசதிக் குறைவாயிருந்தது. என்வே அவர்கள் இருவரும் ஒருவர் மாற்றியொருவர் தங்கள் விருந்தாளியைப் பார்த்தார்கள். கடைசியாக நிகலாய் எழுந்திருந்து சொன்னான்;
+“நாம் படுக்கப் போகலாமே, சிறையில் உட்கார்ந்து உட்கார்ந்து பழகிப் போய்விட்டது. திடீரென்று அவர்கள் என்னை விடுதலை பண்ணிவிட்டார்கள். நானும் வெளி வந்துவிட்டேன். எனக்கு ஒரே களைப்பாயிருக்கிறது.”
+அவன் சமையலறைக்குள் நுழைந்தான். அங்குச் சிறிது நேரம் அவன் தூக்கம் பிடிக்காமல் புரண்டு புரண்டு படுப்பது தெரிந்தது. பிறகு சவம் மாதிரி அசையவோ சத்தமோ அற்றுக் கிடந்தான். தாய் அந்த அமைதியைக் கவனித்துவிட்டு, பிறகு அந்திரேயிடம் திரும்பி இரகசியமாகச் சொன்னாள்,
+“அவன் மனதில் பயங்கரமான எண்ணங்கள் இருக்கின்றன.”
+“ஆமாம் அவன் ஒரு அழுத்தமான பேர்வழி” என்று தலையை அசைத்துக்கொண்டே சொன்னான் ஹஹோல். “ஆனால் அவன் சரியாகிவிடுவான். நானும் கூட முன்னால் இப்படித்தானிருந்தேன். இதயத்தில் தீக்கொழுந்துகள் பிரகாசிப்பதற்கு முன் முதலில் வெறும் புகைதான் மண்டிக்கொண்டிருக்கும். சரி, நீங்கள் படுக்கப் போங்கள். அம்மா, நான் கொஞ்ச நேரம் உட்கார்ந்து படிக்கப்போகிறேன்.”
+மூளையிலே துணித்திரைகளுக்குப் பின்னால் மறைந்திருந்த படுக்கையை நோக்கிச் சென்றாள் தாய். வெகு நேரம் வரையிலும் அவளது பெருமூச்சையும் பிரார்த்தனையின் முணுமுணுப்பையும் அந்திரேயால் கேட்க முடிந்தது. அவன் புத்தகத்தின் பக்கங்களை அவசர அவசரமாய்ப் புரட்டினான்; நெற்றியைத் தேய்த்துவிட்டுக்கொண்டான்; தனது நீண்டு மெலிந்த விரல்களால் மீசையைத் திருகிவிட்டுக் கொண்டான்; கால் மாற்றிக் கால் போட்டுக்கொண்டான். கடிகாரம் தன்பாட்டில் சப்தித்துக்கொண்டிருந்தது. ஜன்னலுக்கு வெளியே காற்று முனகி ஓலமிட்டது.
+“ஆ! கடவுளே!” என்று தாயின் மெதுவான தணிந்த குரல் ஒலித்தது; “உலகில் எத்தனையோ பேர், அத்தனை பேரும் அவரவர் துக்கத்தால் அழுதுகொண்டே இருக்கிறார்கள். அழாமல் இருக்கும் அந்தப் பாக்கியசாலிகள் எங்கேதான் இருக்கிறார்களோ?”
+“இருக்கிறார்கள். அம்மா” என்றான் ஹஹோல்; “சீக்கிரமே அவர்களில் பலரை, பல்லாயிரம் பேரை, நீங்கள் காணப்போகிறீர்கள்.”</p>
+
+  </div>
+</div>
+
+    </main>
+    <div class="side-bar">
+  
+  <p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/thaai/ch022/"
+    title="அதிகாரம் 21"
+  >
+    <i class="nav-menu fas fa-chevron-circle-right"></i>
+  </a>
+  
+</p>
+<p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/thaai/ch020/"
+    title="அதிகாரம் 19"
+  >
+    <i class="nav-menu fas fa-chevron-circle-left"></i>
+  </a>
+  
+</p>
+
+  
+  <a href="#" class="mb-1 mt-1 text-left">
+    <i
+      class="nav-menu fas fa-chevron-circle-up"
+      aria-label="Scroll to top"
+    ></i>
+  </a>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      title="Copy URL to share"
+      class="nav-menu fas fa-share-alt"
+    ></i>
+  </p>
+</div>
+
+<script>
+  function displayCopyMessage(bool) {
+    let alertMessage = "";
+    if (bool) {
+      alertMessage = "Link copied to clipboard";
+    } else {
+      alertMessage = "Link could not be copied to clipboard";
+    }
+    let copiedMessage = document.createElement("div");
+    copiedMessage.id = "copiedMessage";
+    copiedMessage.textContent = alertMessage;
+    copiedMessage.classList.add(
+      "bg-warning",
+      "shadow",
+      "d-block",
+      "text-center"
+    );
+    document.body.appendChild(copiedMessage);
+
+    setTimeout(function() {
+      copiedMessage.style.opacity = 0;
+    }, 500);
+    setTimeout(function() {
+      document.body.removeChild(copiedMessage);
+    }, 1500);
+  }
+
+  let clipboard = new ClipboardJS(".fa-share-alt", {
+    text: function() {
+      return "https:\/\/thanithamizhakarathikalanjiyam.github.io\/more_books\/thaai\/ch021\/";
+    }
+  });
+
+  clipboard.on("success", function() {
+    displayCopyMessage(true);
+  });
+
+  clipboard.on("error", function() {
+    displayCopyMessage(false);
+  });
+</script>
+
+    <footer class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="d-flex flex-column">
+    <span class="mb-1">
+      Tamil Collected Books
+      &middot;
+      (@)
+    </span>
+  </div>
+  <p class="about text-left mb-0">
+    
+      
+    
+    
+    <a href="https://thanithamizhakarathikalanjiyam.github.io/"> thanithamizhakarathikalanjiyam</a>.
+  </p>
+</footer>
+
+  </body>
+</html>
