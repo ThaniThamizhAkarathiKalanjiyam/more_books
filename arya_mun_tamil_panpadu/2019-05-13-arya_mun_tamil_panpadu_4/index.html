@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Pitchaimuthu Shelf</title>
+  <meta name="description" content="Some books collected by Pitchaimuthu" />
+  <meta name="author" content="Pitchaimuthu" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="generator" content="kitab theme by Darshan in Hugo 0.83.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/more_books/css/kitab.css" />
+
+  <script src="/more_books/js/myFunctions.js"></script>
+  <script src="/more_books/js/clipboard.min.js"></script>
+</head>
+
+  <body class="container" style="max-width: 1024px;">
+    <nav class="mt-2 border-bottom">
+  <div class="d-flex flex-row position-relative">
+    <a href="/more_books/"
+      ><i title="Home" class="nav-menu mr-2 mt-1 fas fa-home"></i
+    ></a>
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-book"
+    onclick="expandMenu(this)"
+    title="Show all books"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2">
+      <strong>
+        Books
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/emma/">
+            Emma
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/tamilar_elutchi/">
+            தமிழரின் எழுச்சி
+          </a>
+          by இசையினியன்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/thaai/">
+            தாய்
+          </a>
+          by மாக்ஸிம் கார்க்கி
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/pride_and_prejudice/">
+            Pride <em>and</em> Prejudice
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/">
+            ஆரியர்க்கு முற்பட்ட தமிழ்ப்பண்பாடு
+          </a>
+          by புலவர் கா. கோவிந்தன் நூல்கள்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kundalakesi/">
+            குண்டலகேசி
+          </a>
+          by நாதகுத்தனார்
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-bars"
+    onclick="expandMenu(this)"
+    title = "Show Chapters"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="
+      position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2 rounded">
+      <strong class="mt-3">
+        
+        
+        ஆரியர்க்கு முற்பட்ட தமிழ்ப்பண்பாடு
+        
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_1/">அறிமுகம்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_2/">கைபேசி தொகுப்புரை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_3/">Creative Commons Public Licenses</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_4/">Universal ( CC0 1.0) Public Domain Dedication</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_5/">1 முன்னுரை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_6/">2 தமிழர் பண்டை நாகரீகத்தின் நில இயல் அடிப்படை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_7/">3 கி.மு. இரண்டாவது ஆயிரத்தாண்டில் தமிழர் நாகரீகம்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_8/">4 கி.மு. இரண்டாம் ஆயிரத்தாண்டில் வெளிநாட்டு வாணிகம்.</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_9/">5 ஆகமங்களின் தோற்றம்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_10/">6 வட இந்தியாவும் தென் இந்தியாவும்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_14/">10 தமிழர் வாழ்க்கை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_11/">7 வெளிநாட்டு வாணிகம்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_12/">8 வடக்கும் தெற்கும்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_17/">13 மக்கள் வாழ்க்கை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_13/">9 வழக்கில் உள்ள பழந்தமிழ்ப் பாக்கள்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_15/">11 வெளிநாட்டு வாணிகம்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_16/">12 தமிழ் இலக்கியத்துள் சமஸ்கிருத நாகரீகத்தின் முதல் நுழைவு</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</nav>
+
+    <main class="mt-3" style="margin-left: 32px;">
+      
+<div class="mb-2 p-3 shadow position-relative">
+  <small
+    class="bg-white pl-1 pr-1 rounded"
+    style="background-color: #f3f3ef !important; position: absolute; top: -0.75em; right: 1em"
+  ><div>
+  
+
+
+
+
+
+
+<span style="font-size: 0.9em;"><i
+    aria-label="home"
+    class="fas fa-home"
+  ></i
+  ></span>
+
+
+
+<span style="font-size: 0.9em;"> / ஆரியர்க்கு …</span>
+
+
+
+<span style="font-size: 0.9em;"> / Universal ( CC0 …</span>
+
+</div>
+
+
+</small>
+  <h2>Universal ( CC0 1.0) Public Domain Dedication</h2>
+  <div class="rounded">
+    <hr>
+<p>This is a human readable summary of the legal code found at <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">https://creativecommons.org/publicdomain/zero/1.0/legalcode</a></p>
+<p><strong>No Copyright</strong><br>
+The person who associated a work with this deed has <strong>dedicated</strong> the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law including all related and neighboring rights, to the extent allowed by law.</p>
+<p>You can copy, modify, distribute and perform the work even for commercial purposes, all without asking permission.</p>
+<hr>
+<p>This book is uploaded as part of the collaboration between Global Tamil Wikimedia Community ( <a href="https://ta.wikisource.org">https://ta.wikisource.org</a> ) and Tamil Virtual Academy ( <a href="http://tamilvu.org">http://tamilvu.org</a> ). More details about this collaboration can be found at <a href="https://ta.wikisource.org/s/4kx">https://ta.wikisource.org/s/4kx</a>.</p>
+<p><strong>தமிழர் பண்பாடு</strong></p>
+<p>புலவர் <strong>கா. கோவிந்தன், எம்.ஏ.,</strong></p>
+<p>திருநெல்வேலித், தென்னிந்திய<br>
+சைவசித்தாந்த நூற்பதிப்புக் கழகம், லிமிடெட்,<br>
+154, டி.டி.கே. சாலை, சென்னை - 18.</p>
+<p><strong>நூல் விவர அட்டவணை</strong></p>
+<p>நூலின் பெயர் - தமிழர் பண்பாடு<br>
+பொருள் - வரலாறு<br>
+ஆசிரியர் பெயர் - புலவர் கா. கோவிந்தன்<br>
+வெளியீட்டு எண் - 2025<br>
+பதிப்பாண்டு - முதல் பதிப்பு 1999<br>
+பதிப்பாளர் - சைவசித்தாந்த நூற்பதிப்புக் கழகம்,<br>
+சென்னை -18<br>
+உரிமை - கழகம்<br>
+மொழி - தமிழ்<br>
+நூலின் அளவு - கிரெளன்<br>
+தாள் - 10.9 kg.<br>
+கட்டமைப்பு - அட்டைக் கட்டு<br>
+அச்செழுத்து - 10 pt<br>
+மொத்தப் பக்கங்கள் - 283<br>
+விலை - ரூ.20<br>
+அச்சிட்டோர் - அப்பர் அச்சகம், செ 108.<br>
+கணிப்பொறி அச்சு - திருவள்ளுவர்<br>
+வரைகலையகம்<br>
+சென்னை - 94.<br>
+472 22 05</p>
+<p><strong>பொருளடக்கம்</strong></p>
+<p>[அடுத்த பக்கம்]({{ site.url }}/arya_mun_tamil_panpadu_5)</p>
+
+  </div>
+</div>
+
+    </main>
+    <div class="side-bar">
+  
+  <p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_5/"
+    title="1 முன்னுரை"
+  >
+    <i class="nav-menu fas fa-chevron-circle-right"></i>
+  </a>
+  
+</p>
+<p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/arya_mun_tamil_panpadu/2019-05-13-arya_mun_tamil_panpadu_3/"
+    title="Creative Commons Public Licenses"
+  >
+    <i class="nav-menu fas fa-chevron-circle-left"></i>
+  </a>
+  
+</p>
+
+  
+  <a href="#" class="mb-1 mt-1 text-left">
+    <i
+      class="nav-menu fas fa-chevron-circle-up"
+      aria-label="Scroll to top"
+    ></i>
+  </a>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      title="Copy URL to share"
+      class="nav-menu fas fa-share-alt"
+    ></i>
+  </p>
+</div>
+
+<script>
+  function displayCopyMessage(bool) {
+    let alertMessage = "";
+    if (bool) {
+      alertMessage = "Link copied to clipboard";
+    } else {
+      alertMessage = "Link could not be copied to clipboard";
+    }
+    let copiedMessage = document.createElement("div");
+    copiedMessage.id = "copiedMessage";
+    copiedMessage.textContent = alertMessage;
+    copiedMessage.classList.add(
+      "bg-warning",
+      "shadow",
+      "d-block",
+      "text-center"
+    );
+    document.body.appendChild(copiedMessage);
+
+    setTimeout(function() {
+      copiedMessage.style.opacity = 0;
+    }, 500);
+    setTimeout(function() {
+      document.body.removeChild(copiedMessage);
+    }, 1500);
+  }
+
+  let clipboard = new ClipboardJS(".fa-share-alt", {
+    text: function() {
+      return "https:\/\/thanithamizhakarathikalanjiyam.github.io\/more_books\/arya_mun_tamil_panpadu\/2019-05-13-arya_mun_tamil_panpadu_4\/";
+    }
+  });
+
+  clipboard.on("success", function() {
+    displayCopyMessage(true);
+  });
+
+  clipboard.on("error", function() {
+    displayCopyMessage(false);
+  });
+</script>
+
+    <footer class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="d-flex flex-column">
+    <span class="mb-1">
+      Tamil Collected Books
+      &middot;
+      (@)
+    </span>
+  </div>
+  <p class="about text-left mb-0">
+    
+      
+    
+    
+    <a href="https://thanithamizhakarathikalanjiyam.github.io/"> thanithamizhakarathikalanjiyam</a>.
+  </p>
+</footer>
+
+  </body>
+</html>
