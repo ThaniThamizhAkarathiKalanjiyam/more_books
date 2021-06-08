@@ -1,1 +1,1 @@
-hugo server -D -d docs
+hugo -D -d docs
