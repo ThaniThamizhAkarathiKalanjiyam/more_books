@@ -1,14 +1,14 @@
-baseURL = "https://example.org/"
+baseURL = "https://thanithamizhakarathikalanjiyam.github.io/more_books/"
 languageCode = "en-us"
 theme = "kitab"
-title = "Books of Jane Austen"
+title = "ஞாலக் களஞ்சியம்"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 pluralizelisttitles = false
 
 [params]
-  author = "First Last"
-  description = "Some books of Jane Austen"
+  author = "Pitchaimuthu"
+  description = "Tamil Collected books"
   dateFormat = "2006-01-02"
-  footer1 = "Awesome Books"
-  footer2 = "(c) Cool Books"
+  footer1 = "Tamil Awesome Books"
+  footer2 = "My favorite books"
