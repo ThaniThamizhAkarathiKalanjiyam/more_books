@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>ஞாலக் களஞ்சியம்</title>
+  <meta name="description" content="Tamil Collected books" />
+  <meta name="author" content="Pitchaimuthu" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="generator" content="kitab theme by Darshan in Hugo 0.83.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/more_books/css/kitab.css" />
+
+  <script src="/more_books/js/myFunctions.js"></script>
+  <script src="/more_books/js/clipboard.min.js"></script>
+</head>
+
+  <body class="container" style="max-width: 1024px;">
+    <nav class="mt-2 border-bottom">
+  <div class="d-flex flex-row position-relative">
+    <a href="/more_books/"
+      ><i title="Home" class="nav-menu mr-2 mt-1 fas fa-home"></i
+    ></a>
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-book"
+    onclick="expandMenu(this)"
+    title="Show all books"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2">
+      <strong>
+        Books
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/">
+            வரலாற்று நாயகர்கள்
+          </a>
+          by சிலம்பு
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/pura_nanooru/">
+            புறநானூறு
+          </a>
+          by பல்வேறு புலவர்
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/emma/">
+            Emma
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/pride_and_prejudice/">
+            Pride <em>and</em> Prejudice
+          </a>
+          by Jane Austen
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/kanmani_ganeshan/">
+            கண்மணித்தமிழ்
+          </a>
+          by ச.கண்மணி கணேசன் | முன்னாள் முதல்வர் &amp; தமிழ்த் துறைத் தலைவர், ஸ்ரீகாளிஸ்வரி கல்லூரி, சிவகாசி.
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-bars"
+    onclick="expandMenu(this)"
+    title = "Show Chapters"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="
+      position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2 rounded">
+      <strong class="mt-3">
+        
+        
+        வரலாற்று நாயகர்கள்
+        
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_1/">அறிமுகம்</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_2/">கைபேசி தொகுப்புரை</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_3/">ஆசிரியர் பற்றி</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_4/">Creative Commons Public Licenses</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_5/"><ol>
+<li>அலெக்ஸாண்டர் கிரஹாம் பெல் (தொலைபேசி உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_6/"><ol start="2">
+<li>ஆப்ரா வின்ஃப்ரெ (The Oprah Winfrey Show)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_7/"><ol start="3">
+<li>ஆல்ஃப்ரெட் நோபல் (நோபல் பரிசு உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_8/"><ol start="4">
+<li>இரவீந்தரநாத் தாகூர்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_9/"><ol start="5">
+<li>எட்வர்ட் ஜென்னர்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_10/"><ol start="6">
+<li>கன்பூசியஸ் (தத்துவ மேதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_11/"><ol start="7">
+<li>கலிலியோ கலிலி (வானியல் சாஸ்திரத்தின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_12/"><ol start="8">
+<li>கல்வியின் நாயகன் (காமராஜர்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_13/"><ol start="9">
+<li>கார்ல் மார்க்ஸ் (மூலதனத்தின் பிறந்த நாள்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_14/"><ol start="10">
+<li>கிரிகோர் மெண்டல் (மரபியலின் தந்தை) - வரலாற்று நாயகர்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_15/"><ol start="11">
+<li>கிரிஸ்டோபர் ரீவ்ஸ் (The Real Superman)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_16/"><ol start="12">
+<li>கிறிஸ்டோபர் கொலம்பஸ்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_17/"><ol start="13">
+<li>கெளதம புத்தர் (பகுத்தறிவின் கடவுள் பிறந்த கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_18/"><ol start="14">
+<li>சர் அலெக்ஸாண்டர் ஃபிளெமிங் (discovery of penicillin)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_19/"><ol start="15">
+<li>சர் எட்மண்ட் ஹில்லரி</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_20/"><ol start="16">
+<li>சர் எர்னஸ்ட் ரூதர்ஃபோர்டு (அணுவைத் துளைத்த விஞ்ஞானியின் கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_21/"><ol start="17">
+<li>சர் ஐசக் நியூட்டன் ( அறிவியல் மேதை )</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_22/"><ol start="18">
+<li>சர் சி.வி.ராமன் (அறிவியல் மேதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_23/"><ol start="19">
+<li>சர் ஜகதீஷ் சந்திர போஸ் (அறிவியல் மேதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_24/"><ol start="20">
+<li>சர் ரோஜர் பேனிஸ்டர் (  The Miracle Mile Man)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_25/"><ol start="21">
+<li>சாக்ரடீஸ் (தத்துவஞானிகளின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_26/"><ol start="22">
+<li>சார்லஸ் டார்வின் ( பரிணாமவியலாரின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_27/"><ol start="23">
+<li>சார்லஸ் டிக்கென்ஸ்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_28/"><ol start="24">
+<li>சார்லி சாப்ளின் (சிரிப்பு ஜீனியஸ்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_29/"><ol start="25">
+<li>சிக்மண்ட் ஃப்ராய்ட் (உளவியலின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_30/"><ol start="26">
+<li>ஜான் எஃப் கென்னடி</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_31/"><ol start="27">
+<li>ஜார்ஜ் பெர்னாட் ஷா (இலக்கிய மேதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_32/"><ol start="28">
+<li>ஜீன் ஹென்றி டுனாண்ட் (Jean Henri Dunant)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_33/"><ol start="29">
+<li>ஜூலியஸ் சீசர் ( The Great Roman Empire)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_34/"><ol start="30">
+<li>ஜெசி ஓவன்ஸ் (Olympic Legend)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_35/"><ol start="31">
+<li>ஜேம்ஸ் வாட்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_36/"><ol start="32">
+<li>ஜொஹானேஸ் குட்டன்பெர்க் (அச்சியந்திரம் உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_37/"><ol start="33">
+<li>ஜோசப் லிஸ்டர் (நவீன அறுவை சிகிச்சையின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_38/"><ol start="34">
+<li>தந்தை பெரியார் (தென்கிழக்காசியாவின் சாக்ரடீஸ்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_39/"><ol start="35">
+<li>தமிழ்க் கடல் மறைமலை அடிகள் (தனித்தமிழ் பிறந்த கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_40/"><ol start="36">
+<li>தமிழ்த்தாத்தா டாக்டர் உ.வே. சாமிநாத ஐயர்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_41/"><ol start="37">
+<li>ஜான் லூகி பைர்ட் (John Logie Baird தொலைக்காட்சி உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_42/"><ol start="38">
+<li>நெல்சன் மண்டேலா</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_43/"><ol start="39">
+<li>பாப்லோ பிக்காஸோ (நவீன ஓவியங்களின் பிரம்மா )</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_44/"><ol start="40">
+<li>பிராங்கிளின் ரூஸ்வெல்ட்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_45/"><ol start="41">
+<li>பிரெட்ரிக் பாஸி (அமைதியின் தூதுவன்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_46/"><ol start="42">
+<li>பில் கேட்ஸ்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_47/"><ol start="43">
+<li>பிளேட்டோ (தத்துவஞானி)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_48/"><ol start="44">
+<li>புரட்சி நாயகன் லெனின்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_49/"><ol start="45">
+<li>புரூஸ் லீ (தற்காப்புக்கலையின் முடிசூடா மன்னன்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_50/"><ol start="46">
+<li>புளோரன்ஸ் நைட்டிங்கேல் (The Lady with the Lamp)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_51/"><ol start="47">
+<li>பெஞ்சமின் ஃபிராங்கிளின்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_52/"><ol start="48">
+<li>பெலே (காற்பந்தாட்ட உலகின் முடிசூடா மன்னன்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_53/"><ol start="49">
+<li>பேரரசர் அசோகர் (The Great Indian Emperor)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_54/"><ol start="50">
+<li>மகாகவி பாரதியார்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_55/"><ol start="51">
+<li>மஹாத்மா காந்தியடிகள் (இந்தியாவின் தேசப்பிதா) - பாகம் 1</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_56/"><ol start="52">
+<li>மஹாத்மா காந்தியடிகள் (இந்தியாவின் தேசப்பிதா) - பாகம் 2</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_57/"><ol start="53">
+<li>மாமேதை பீத்தோவன் (இசை உலகின் பிதாமகன் )</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_58/"><ol start="54">
+<li>மார்க்கோனி (வானொலியின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_59/"><ol start="55">
+<li>மார்ட்டின் லூதர் கிங்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_60/"><ol start="56">
+<li>மாவீரன் நெப்போலியன் (ஒரு சாமானியன் சக்ரவர்த்தியான சரித்திரம்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_61/"><ol start="57">
+<li>மிக்கைல் கொர்பசோவ்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_62/"><ol start="58">
+<li>முகமது அலி (உலக குத்துச்சண்டை வீரர்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_63/"><ol start="59">
+<li>மேரி கியூரி அம்மையார் (அறிவியல் மேதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_64/"><ol start="60">
+<li>மைக்கலாஞ்சலோ</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_65/"><ol start="61">
+<li>மைக்கேல் ஃபாரடே (மின்சக்தியை கட்டுப்படுத்திய விஞ்ஞானியின் கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_66/"><ol start="62">
+<li>மோட்ஸார்ட் (இசை மேதை  Mozart)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_67/"><ol start="63">
+<li>யூக்ளிட் (கணிதவியலின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_68/"><ol start="64">
+<li>ராபர்ட் கால்டுவெல் (திராவிட மொழியியலின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_69/"><ol start="65">
+<li>ரிச்சர்ட் ட்ரெவிதிக் (இரயில் வண்டி உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_70/"><ol start="66">
+<li>ரூசோ</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_71/"><ol start="67">
+<li>ரே கிராக் - Ray Kroc (McDonalds உணவகம் உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_72/"><ol start="68">
+<li>ரைட் சகோதரர்கள் (விமானம் உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_73/"><ol start="69">
+<li>லவாய்ஸியர் (இரசாயனவியலின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_74/"><ol start="70">
+<li>லியொனார்டோ டாவின்சி</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_75/"><ol start="71">
+<li>லூயி பாஸ்ச்சர் (நுண்ணுயிரியலின் தந்தை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_76/"><ol start="72">
+<li>லூயி பிரெய்ல்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_77/"><ol start="73">
+<li>வால்ட் டிஸ்னி</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_78/"><ol start="74">
+<li>வாஸ்கோட காமா</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_79/"><ol start="75">
+<li>வின்செண்ட் வான் கோ</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_80/"><ol start="76">
+<li>வில்லியம் மார்ட்டன் (மருத்துவ உலகின் ஒரு மாமனிதரின் கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_81/"><ol start="77">
+<li>வில்லியம் ஷேக்ஸ்பியர்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_82/"><ol start="78">
+<li>வில்லியம் ஹார்வி</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_83/"><ol start="79">
+<li>வீ கிம் வீ (மக்கள் அதிபர்)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_84/"><ol start="80">
+<li>ஷி ஹூவாங்டி (உலக அதிசயம் சீனப் பெருஞ்சுவர் உருவான கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_85/"><ol start="81">
+<li>ஸ்காட் ஹமில்டன் (figure skating championship)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_86/"><ol start="82">
+<li>ஹமில்டன் நாகி (மருத்துவ உலகில் ஒரு மாறுபட்ட மனிதரின் கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_87/"><ol start="83">
+<li>ஹான்ஸ் கிரிஸ்டியன் ஆண்டர்சன்</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_88/"><ol start="84">
+<li>ஹென்றி ஃபோர்ட் (கார் ஜாம்பவானின் கதை)</li>
+</ol>
+</a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_89/"></a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://thanithamizhakarathikalanjiyam.github.io/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal/"></a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</nav>
+
+    <main class="mt-3" style="margin-left: 32px;">
+      
+<div class="mb-2 p-3 shadow position-relative">
+  <small
+    class="bg-white pl-1 pr-1 rounded"
+    style="background-color: #f3f3ef !important; position: absolute; top: -0.75em; right: 1em"
+  ><div>
+  
+
+
+
+
+
+
+<span style="font-size: 0.9em;"><i
+    aria-label="home"
+    class="fas fa-home"
+  ></i
+  ></span>
+
+
+
+<span style="font-size: 0.9em;"> / வரலாற்று …</span>
+
+
+
+<span style="font-size: 0.9em;"> / <ol start="79">
+<li>வீ கிம் வீ …</li></ol></span>
+
+</div>
+
+
+</small>
+  <h2>79. வீ கிம் வீ (மக்கள் அதிபர்)</h2>
+  <div class="rounded">
+    <h2 id="79-வ-கம-வ-மககள-அதபர">79. வீ கிம் வீ (மக்கள் அதிபர்)</h2>
+<p>2011-11-04T09:27:00.001+08:00</p>
+<p>வணக்கம் நண்பர்களே, சிங்கப்பூரின் முன்னால் அதிபர் டாக்டர். வீ கிம் வீயின் பிறந்த நாளான இன்று (04/11/2011) அவரின் வாழ்க்கை வரலாற்றை பகிர்ந்து கொள்வதில் மகிழ்ச்சியடைகிறேன்!</p>
+<p><em>&ldquo;வாழ்க்கை என்ற அதிர்ஷ்ட குலுக்கில் நாம் எவ்வாறு பிறக்கிறோம் என்பதையோ,பிறந்த பிறகு வரும் அதிர்ஷ்டங்களையோ துரதிர்ஷ்டங்களையோ நம்மால் தேர்ந்தெடுக்க முடியாது ஆனால் அவற்றை எவ்வாறு சமாளிக்கிறோம் என்பது நம் கைகளில் இருக்கிறது. தன்னம்பிக்கை இழக்காமல் முழுமையாக போராடினால் துரதிர்ஷ்டம் நம் பாதையைக் கடந்தாலும் நம்மால் அதனை வெற்றியாக மாற்ற முடியும்&rdquo;.</em></p>
+<p>_<br>
+_</p>
+<p>1994 ஆம் ஆண்டு ஆக்ஸ்ட் மாதம் 30ந்தேதி உதிர்க்கப்பட்ட வார்த்தைகள் அது. குடும்ப வறுமை காரணமாக படிப்பை பாதியிலேயே விட்டு பின்னர் கெளரவ டாக்டர் பட்டம் பெற்ற ஒரு வரலாற்று நாயகர் அந்தக் கெளரவ பட்டத்தை ஏற்றுக்கொண்டு ஆற்றிய உரையில் கூறிய கருத்து அது. சிங்கப்பூரர்களின் ஒட்டு மொத்த நன்மதிப்பையும் பெற்றிருந்த அவர் வேறு யாருமல்ல புன்னகை மட்டுமே பூக்கத் தெரிந்தவரும், நாட்டின் மிக உயர்ந்த பதவியை வகித்தும் சராசரி சிங்கப்பூரர்களோடு சரிசமமாக பழகியவரும், சிங்கப்பூரர்களால் மக்கள் அதிபர் என்று அன்போடு அழைக்கப்பட்டவருமான சிங்கப்பூரின் முன்னால் அதிபர் டாக்டர் வீ கிம் வீ.</p>
+<p><img src="http://2.bp.blogspot.com/-YPIOL24lQR4/TrMsIP1-oZI/AAAAAAAAA9A/wmaTT2Ql3os/s320/pic_wkw_home_quote.jpg" alt=""></p>
+<p>சிங்கப்பூரின் நான்காவது அதிபராக எட்டாண்டு காலம் பணியாற்றியவர். வறுமையில் பிறந்த ஒருவர் ஒரு தேசத்தின் அதிபரான கதை திரு.வீ கிம் வீயின் கதை. 1915 ஆம் ஆண்டு நவம்பர் 4ந்தேதி சிங்கப்பூரில் ஒரு சராசரி குடும்பத்தில் நான்காவதும், கடைசிப் பிள்ளையுமாக பிறந்தார் திரு வீ. அன்புக்கு பஞ்சமில்லாத அந்த வீட்டில் வறுமைக்கும் பஞ்சமில்லை. மிக எளிமையான சூழ்நிலையில் வளர்ந்த அவர் தனது ஆரம்பக் கல்வியை பெர்ல்ஸ் ஹில் தொடக்கப்பள்ளியில் பயின்றார். அவருக்கு எட்டு வயதானபோது அவரது தந்தை தொண்டைப் புற்று நோயால் காலமானார். அதனால் குடும்ப நிலமை இன்னும் மோசமானது. எப்படியோ சிரமபட்டு ராஃபிள்ஸ் கல்விக் கழகத்தில் உயர்நிலை படிப்பை மேற்கொண்டார் திரு வீ. ஆனால் குடும்ப வறுமை அலைக்கழிக்க இரண்டு ஆண்டுகள்தான் அவரால் அங்கு நிலைக்க முடிந்தது.</p>
+<p>1930 ஆம் ஆண்டில் அவர் &ldquo;ஸ்ட்ரெயிட்ஸ் டைம்ஸ்&rdquo; பத்திரிக்கையில் அலுவலக உதவியாளராக வேலைக்குச் சேர்ந்தார். கடுமையாக உழைத்ததால் அவர் பின்னர் விளம்பர பிரிவில் சேர்ந்தார். அதன்பின்னர் நிருபராக அவருக்கு பதவி உயர்வு கிட்டியது. 1941 ல் அவர் யுனைட்டேட் பிரஸ் அசோஸியேஷன்(யு.பி.ஏ) எனப்ப்டும் அமெரிக்க செய்தி நிறுவனத்தில் சேர்ந்தார். ஜப்பானிய ஆட்சிக் காலத்தின்போது அந்த வேலையை அவரால் தொடர முடியவில்லை. ஜப்பானிய இராணுவ அமைப்பில் எழுத்தராக வேலை செய்தார். 1945 ஆம் ஆண்டு ஜப்பானிய ஆட்சியிலிருந்து சிங்கப்பூர் விடுபட்டபோது அவர் மீண்டும் யுனைட்டேட் பிரஸ் அசோஸியேஷனில்(யு.பி.ஏ) சேர்ந்தார். அதில் நல்ல பத்திரிக்கை அனுபவம் கிடைத்ததால் அவர் மீண்டும் 1959 ஆம் ஆண்டில் &ldquo;ஸ்ட்ரெயிட்ஸ் டைம்ஸில்” சேர்ந்தார். இம்முறை அவருக்கு கிடைத்தது உதவி ஆசிரியர் பணி.</p>
+<p><img src="http://1.bp.blogspot.com/-4oGKAMoxeDA/TrMsQUB7TrI/AAAAAAAAA9I/OU6UyXNXH9k/s1600/wee2.gif" alt=""></p>
+<p>அந்தக்கால கட்டத்தில் நிருபராக இருந்து பல முக்கிய நிகழ்வுகளை சிங்கப்பூரர்களுக்கு கொண்டு வரும் வாய்ப்பு அவருக்கு கிட்டியது. குறிப்பாக 1966 ஆம் ஆண்டு இந்தோனோசியாவுக்கும், மலேசியாவுக்கு இடையே நிலவிய கான்ப்ரெண்டேஷன் (CONFRONTATION) எனப்படும் அரசியல் பதற்றத்தின்போது தைரியமாக ஜகர்தாவுக்கு சென்று இந்தோனோசியாவின் முன்னால் அதிபர் சுகார்த்தோவை நேரடியாக பேட்டி எடுத்தார். அடுத்த நாளே மூன்றாண்டு பதற்றத்தை முடிவுக்கு கொண்டு வர இந்தோனோசியா விரும்புகிறது என்ற தலைப்புச் செய்தியை உலகுக்குத் தந்தார் திரு வீ கிம் வீ. 1973 ஆம் ஆண்டு அவர் பதவி ஓய்வுபெற இரண்டு ஆண்டுகளே இருந்தபோது அவரை மலேசியாவிற்கான தூதராக நியமித்தது சிங்கப்பூர் அரசாங்கம். மூன்று ஆண்டுகள் மட்டுமே நீடிக்க வேண்டிய அந்த பதவியில் திரு. வீ ஏழு ஆண்டுகள் நீடித்தார். அந்த ஏழு ஆண்டுகளில் சுமூகமான சிங்கப்பூர், மலேசிய உறவுகளுக்கு அவர் நல்ல அடித்தளம் அமைத்துக்கொடுத்தார்.</p>
+<p>அந்தப்பணி முடிந்து 1980 ஆம் ஆண்டில் ஜப்பானுக்கான தூதராகவும், அதற்கு அடுத்த ஆண்டு கூடுதலாக கொரியாவுக்கான தூதராகவும் அவர் நியமிக்கப்பட்டார். அவருடைய அரசதந்திர பணி 1984 ல் முடிவடைந்ததும் முன்னைய சிங்கப்பூர் ஒளிப்பரப்புக் கழக்த்தின் தலைவராக நியமிக்கப்பட்டார். அதற்கு அடுத்த ஆண்டே அதாவது 1985 ஆகஸ்ட் 30ந்தேதி சிங்கப்பூரின் நான்காவது அதிபராக அவரை தேர்ந்தெடுத்தது நாடாளுமன்றம். அடுத்த எட்டு ஆண்டுகள் அந்தப் பணியை செவ்வெனெச் செய்தார் திரு.வீ கிம் வீ. 1936 ஆம் ஆண்டு கோ சாக் ஷியாங்’ என்பவரை மணந்து கொண்ட திரு. வீ அவர்களுக்கு ஒரு ஆண், ஆறு பெண்கள் என எழு பிள்ளைகள் பிறந்தனர். 1966 ஆம் ஆண்டு justice of the peace ஆக நியமிக்கப்பட்டார். 1963-ல் பொதுச்சேவைக்கான நட்சத்திர விருதையும், 1979 ஆம் ஆண்டு மெச்சத்தக்க சேவை விருதையும் வென்றார்.</p>
+<p><img src="http://1.bp.blogspot.com/-QjxjKYrc4iU/TrMsndrA7_I/AAAAAAAAA9Y/RprTi5g53HA/s320/Mns14_SDPF-winners-.jpg" alt=""></p>
+<p>1993 செப்டம்பர் மாதம் அவர் அதிபர் பதவியிலிருந்து ஓய்வு பெற்றார். தனது கல்விப் பயணத்தில் பல்கலைக்கழகத்தில் காலடி வைக்க முடியாத திரு.வீ அவர்களுக்கு 1994 ஆம் ஆண்டு ஆக்ஸ்ட் மாதம் 30ந்தேதி மாதம் சிங்கப்பூர் தேசிய பல்கலைக்கழகம் கவுர டாக்டர் பட்டம் வழங்கி சிறப்பித்தது. அதனை ஏற்று அவர் ஆற்றிய உருக்கமான உரையில்&hellip;. &ldquo;வறுமை காரணமாக படிப்பை பாதியிலேயே கைவிட்ட எனக்கு பட்டப்படிப்பு படிக்காமலேயே இவ்வுளவு பெரிய கவுரம் கிடைத்தது குறித்து உண்மையில் மிகவும் மகிழ்ச்சியடைகிறேன். நான் சென்ற ஒரே பல்கலைக் கழகம் வாழ்க்கை என்ற பல்கலைக்கழகம்தான்&rdquo; என்று கூறினார். அதே உரையில் அவர் தன் வாழ்க்கையில் பின்பற்றிய மூன்று கொள்கைகளைப்பற்றி பேசினார். முதல் கொள்கை வாழ்க்கையில் நிறைவு காண வேண்டும். மகிழ்ச்சியாக இருக்க வேண்டும். மற்றவர்களைப் பார்த்து பொறாமைப்படக்கூடாது.</p>
+<p>இந்தக்கொள்கைகளுக்கு உதாரணமாக எட்டு ஆண்டுகள் அதிபராக இருந்தபோது பரந்து விரிந்த &ldquo;இஸ்தானா&rdquo; மாளிகையில் வசிக்க வாய்ப்பிருந்தபோதும் சிக்லாப்பில் இருந்த தனது சொந்த வீட்டிலேயே வசித்தார் என்பது குறிப்பிடதக்கது. இரண்டாவது கொள்கை எல்லோரையும், அவர்கள் எவ்வுளவு தாழ்ந்து போனவர்களாக இருந்தாலும் மனிதர்களைப்போல் நடத்த வேண்டும், உயர்வு தாழ்வு இருக்கக்கூடாது. இதனை வாழ்நாள் முழுவதும் கடைபிடித்ததால்தான் அவரை மக்கள் அதிபர் என்று எல்லோரும் அழைத்தனர். மூன்றாவது கொள்கை எப்போதும் பணிவுடனும், அடக்கத்துடனும் நடந்து கொள்ள வேண்டும். Harry Truman என்பவர் அமெரிக்காவின் அதிபரான பிறகும் தன் காலணிகளை சொந்தமாகவே பாலிஷ் செய்துகொள்வார் என்ற கதையைக்கூறி தானும் அதிபரான பிறகுகூட சொந்தமாகவே காலணிகளுக்கு பாலிஷ் செய்துகொள்வதையும், சொந்தமாகவே காஃபிகூட போட்டுக்கொள்வதையும் கடைப்பிடித்தார் டாக்டர். வீ கிம் வீ.</p>
+<p><img src="http://3.bp.blogspot.com/-SLAc8FUkH1g/TrMs7fWt5yI/AAAAAAAAA9g/LyRvhF3oi54/s1600/522289695_42f3daa79a.jpg" alt=""></p>
+<p>கடைசிவரை அவர் கடைப்பிடித்த எளிமைதான் அவரை மிகப்பெரிய உயரத்திற்கு கொண்டு சென்றிருக்கிறது. 2004 ஆம் ஆண்டு <em>*Glimpses and Reflections *</em> என்ற தனது சுயசரிதையை எழுதி வெளியிட்டார் டாக்டர் வீ. அவரது சுயசரிதையைப் படித்துப்பார்த்தால் எவ்வுளவு பெரிய உச்சங்களைத் தொட்ட ஒரு மனிதன் எப்படிப்பட்ட சாதரணமான வாழ்க்கை வாழ்ந்திருக்கிறார் என்பது புரியும். நமக்கு ஆச்சரியத்தால் புருவங்கள் விரியும். தன்னுடைய பனிரெண்டாவது வயதில் தலமையாசிரியரிடம் தான் வாங்கிய பிரம்படி எப்படி தன் வாழ்க்கையை மாற்றி அமைத்தது என்று அந்தப் புக்கத்தில் சுவைபட கூறியிருக்கிறார் டாக்டர் வீ. மிக எளிய நடையில் எழுதப்பட்டிருக்கும் அந்த நூல் அனைவரும் படித்துப் பயன்பெற வேண்டிய ஒரு நூல். அந்த நூலின் விற்பனை மூலம் கிடைத்த சுமார் அரை மில்லியன் டாலரை எட்டு அறநிறுவனங்களுக்கு வழங்கினார், மனுகுலம் பயன்பெற வேண்டும் என்று விரும்பிய நன்நெஞ்சம் கொண்ட டாக்டர் வீ.</p>
+<p>மக்கள் அதிபர் என்று புகழப்பட்ட டாக்டர் வீ கிம் வீ, சில ஆண்டுகளாகவே Prostate எனப்படும் சிறுநீர்ப்பை சுரப்பி புற்றுநோயால் அவதிப்பட்டார். 2005 ஆம் ஆண்டு மே மாதம் 2ந்தேதி தமது 89 ஆவது வயதில் காலமானார். அந்தத் தருணம் தங்களுடைய உறவினர் ஒருவர் இறந்துபோனதுபோன்று உணர்ந்தனர் அவரது அன்பையும், மனித நேயத்தையும், புன்னகை பூக்கும் முகத்தையும் மறக்க முடியாத சிங்கப்பூர் மக்கள். அதனால்தான் நவீன சிங்கப்பூர் வரலாறு காணாத அளவுக்கு பல்லாயிரம் மக்கள் திரண்டு அவரது உடலுக்கு மரியாதை செலுத்த இஸ்தானாவில் வரிசை பிடித்து நின்றனர்.</p>
+<p>வாழும்போது எளிமையை விரும்பிய டாக்டர் வீ, மறைந்தபோதும் எளிமையாகவே நினைக்கப்பட விரும்பினார். அதனால் தன்னுடைய அஸ்தியை சராசரி சிங்கப்பூரர்களின் அஸ்திகளுக்கு மத்தியில் வைக்குமாறு அவர் கேட்டுக்கொண்டார். சிங்கப்பூரில் பொதுவாக அதிபர்கள் கிராஞ்சி சமாதியில்தான் அடக்கம் செய்யப்படுவது வழக்கம். ஆனால் டாக்டர் வீ அவர்களின் அஸ்தியோ அவரது விருப்பம்போலவே மண்டாய் அஸ்தி மாடத்தில் மற்ற சாரசரி சிங்கப்பூரர்களின் அஸ்திகளோடு அவரது அஸ்தியும் வைக்கப்பட்டுள்ளது.</p>
+<p><img src="http://1.bp.blogspot.com/-parckPK7bPQ/TrMshgUvlyI/AAAAAAAAA9Q/F6MXd8ohJrk/s1600/28d7196c49864890512b09381a2e8b13_1M.png" alt=""></p>
+<p>நாட்டின் உயர்ந்த பதவியை எட்டியபோதும் அதிகாரமோ, தலைக்கணமோ, அகம்பாவமோ அவரது தலைக்கு ஏறவில்லை. மாறாக எட்டாத தூரத்திலிருந்த ஒரு பதவியை அவர் சாமானிய மக்களுக்கும் எட்டும் உயரத்திற்கு கொண்டு வந்தார். அவரது புன்னகைக்கும், கனிவான பேச்சுக்கும் வசப்படாதவர்கள் யாரும் இருக்க முடியாது. ஏழ்மையில் பிறந்து பட்டப்படிப்பு படிக்காமலேயே சிங்கப்பூரின் ஆக உயரிய பதவியை அவரால் அடைய முடிந்திருக்கிறது என்றால் அதற்கு காரணம் அவருடைய நேர்மை, கனிவு, பரிவு, மனிதநேயம், தன்னம்பிக்கை, கடும் உழைப்பு, விடாமுயற்சியும்தான். இவற்றிற்கெல்லாம் மேலாக&hellip;</p>
+<p><em>&ldquo;இந்த உலகத்தில் வாழ்கின்ற காலத்தில் ஐந்து அல்லது பத்து சக மானிடர்கள் மகிழ்ச்சியோடு வாழ நான் முயன்றிருந்தால் அதுவே நான் பிறவி எடுத்ததன் பயனாகும்&rdquo;</em></p>
+<p>என்று கூறியதோடு மட்டுமல்லாமல் அதனை வாழ்ந்தும் காட்டிய அந்த மாமனிதருக்கு அவர் விரும்பிய வானத்துடன் மனுகுலமும் சேர்ந்தே வசப்பட்டது.வறுமையில் பிறந்தாலும் டாக்டர்.வீ கிம் வீ அவர்கள் வாழ்ந்துகாட்டியதுபோல் எளிமையையே விரும்பி அவர் கடைபிடித்த ஓரிரண்டு பண்புகளைப் பின்பற்றி வாழ்க்கையில் விடாமுயற்சியோடு போராடினால் நமக்கும் நாம் விரும்பும் எந்த வானமும் வசப்படும்.</p>
+<p>(தகவலில் உதவி - நன்றி திரு.அழகிய பாண்டியன், ஒலி 96.8 வானொலி சிங்கப்பூர்)</p>
+<hr>
+<p>_* *_ _பாராட்டுகளை விரும்பாத மனிதன் இல்லை, அது போல தன் குறையை திருத்த மற்றவர்களுக்கு வாய்பளிக்காதவனும் மனிதனே இல்லை, இதைக் கொஞ்சம் புரிந்துகொண்ட சராசரி மனிதன் நான்.தயவுசெய்து தவறுகளை சுட்டிக்காட்டுங்கள் நிறைகளை பகிர்ந்துகொள்ளுங்கள், சின்ன சின்ன அங்கீகாரம் மட்டுமே மனதிற்கும் வாழ்விற்கும் புத்துணர்வு அளிக்கும்._ _*_ *</p>
+<p>வாழ்க வளமுடன்</p>
+<p>என்றும் நட்புடன்</p>
+<p>உங்கள். மாணவன்</p>
+<p><a href="varalatru_nayagarkal_84">அடுத்த பக்கம்</a></p>
+
+  </div>
+</div>
+
+    </main>
+    <div class="side-bar">
+  
+  <p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_84/"
+    title="80. ஷி ஹூவாங்டி (உலக அதிசயம் சீனப் பெருஞ்சுவர் உருவான கதை)"
+  >
+    <i class="nav-menu fas fa-chevron-circle-right"></i>
+  </a>
+  
+</p>
+<p class="mb-1 mt-1 text-left">
+  
+  <a
+    href="/more_books/varalarru_nayagarkal/2019-08-29-varalatru_nayagarkal_82/"
+    title="78. வில்லியம் ஹார்வி"
+  >
+    <i class="nav-menu fas fa-chevron-circle-left"></i>
+  </a>
+  
+</p>
+
+  
+  <a href="#" class="mb-1 mt-1 text-left">
+    <i
+      class="nav-menu fas fa-chevron-circle-up"
+      aria-label="Scroll to top"
+    ></i>
+  </a>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      title="Copy URL to share"
+      class="nav-menu fas fa-share-alt"
+    ></i>
+  </p>
+</div>
+
+<script>
+  function displayCopyMessage(bool) {
+    let alertMessage = "";
+    if (bool) {
+      alertMessage = "Link copied to clipboard";
+    } else {
+      alertMessage = "Link could not be copied to clipboard";
+    }
+    let copiedMessage = document.createElement("div");
+    copiedMessage.id = "copiedMessage";
+    copiedMessage.textContent = alertMessage;
+    copiedMessage.classList.add(
+      "bg-warning",
+      "shadow",
+      "d-block",
+      "text-center"
+    );
+    document.body.appendChild(copiedMessage);
+
+    setTimeout(function() {
+      copiedMessage.style.opacity = 0;
+    }, 500);
+    setTimeout(function() {
+      document.body.removeChild(copiedMessage);
+    }, 1500);
+  }
+
+  let clipboard = new ClipboardJS(".fa-share-alt", {
+    text: function() {
+      return "https:\/\/thanithamizhakarathikalanjiyam.github.io\/more_books\/varalarru_nayagarkal\/2019-08-29-varalatru_nayagarkal_83\/";
+    }
+  });
+
+  clipboard.on("success", function() {
+    displayCopyMessage(true);
+  });
+
+  clipboard.on("error", function() {
+    displayCopyMessage(false);
+  });
+</script>
+
+    <footer class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="d-flex flex-column">
+    <span class="mb-1">
+      Tamil Awesome Books
+      &middot;
+      My favorite books
+    </span>
+  </div>
+  <p class="about text-left mb-0">
+    <a href="https://github.com/darshanbaral/kitab">
+      kitab
+    </a>
+    theme by
+    <a href="https://www.darshanbaral.com/"> Darshan Baral</a>.
+  </p>
+</footer>
+
+  </body>
+</html>
