@@ -1,5 +1,5 @@
 +++
-title = "XIV. OTHER DOCTRINES OF THE ĀJIVIKAS "
+title = "XIV. OTHER DOCTRINES OF THE AJIVIKAS "
 weight = 25
 date = "2019-05-12"
 
@@ -9,10 +9,10 @@ date = "2019-05-12"
 
 The Elements 
 
-Ājivika Atomism in Relation to other Indian Atomic Doctrines The Soul 
+Ajivika Atomism in Relation to other Indian Atomic Doctrines The Soul 
 
 The Gods 
 
-Ājivika Logic 
+Ajivika Logic 
 
-The Status of Makkhali Gosāla 
+The Status of Makkhali Gosala 

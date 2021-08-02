@@ -1,44 +1,18 @@
 +++
-title = "LALA SUNDARLALJAIN   RESEARCH SERIES"
-weight = 4
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-# LALA SUNDARLALJAIN   RESEARCH SERIES 
+Summary 
 
+Dr. Barua’s Three Questions . 
 
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-## General Editor 
+BIBLIOGRAPHY 
 
-
-
-### PROF. SATYA RANJAN BANERJEE 
-
-
-
-
-
-## Editorial Board 
-
-> Dr. PADMANABH S. JAINI 
->
-> PROF. DAYANAND BHARGAVA 
->
-> PROF. W.B. BOLLEE PROF. KLAUS BRUHN 
-
-
-
-
-
-
-
-
-
-
-
-
-
-VOLUME XVII
+INDEX 

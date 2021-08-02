@@ -1,12 +1,18 @@
 +++
-title = "XII. NIYATI"
-weight = 25
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-Niyativāda Dialectic 
+Summary 
 
-The Development of the Niyati Doctrine 
+Dr. Barua’s Three Questions . 
+
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
+
+BIBLIOGRAPHY 
+
+INDEX 

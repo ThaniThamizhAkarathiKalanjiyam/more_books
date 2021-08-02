@@ -1,14 +1,18 @@
 +++
-title = "VIII . ĀJĪVIKAS IN THE NANDA AND MAURYA PERIODS"
-weight = 20
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-Mahāpadma
+Summary 
 
-Ājīvikism in Maurya Times
+Dr. Barua’s Three Questions . 
 
-The Barabar and Nāgârjuni Caves
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
+
+BIBLIOGRAPHY 
+
+INDEX 

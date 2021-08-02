@@ -1,14 +1,18 @@
 +++
-title = "XI . ĀJIVIKA SCRIPTURES"
-weight = 24
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-The Mahānimittas, the Maggas, and the Onpatu - katir
+Summary 
 
-Pāli and Prākrit Quotations
+Dr. Barua’s Three Questions . 
 
-Quotations by the Commentators
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
+
+BIBLIOGRAPHY 
+
+INDEX 

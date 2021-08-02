@@ -1,22 +1,18 @@
 +++
-title = "VI . THE EARLY ĀJIVIKA COMMUNITY ( I ) "
-weight = 18
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-The Wandering Philosophers
+Summary 
 
-Etymology of the Term Ājivika
+Dr. Barua’s Three Questions . 
 
-The Ājivika Initiation
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-Ājivika Nudity
+BIBLIOGRAPHY 
 
-Ājivika Asceticism
-
-The Ājivika Sabhu
-
-Song and Dance
+INDEX 

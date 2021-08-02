@@ -1,22 +1,18 @@
 +++
-title = "PLATE I"
-weight = 2
-date = "2019-05-11"
+title = "XV. CONCLUSION  "
+weight = 28
+date = "2019-05-12"
 
 +++
 
 
 
-PLATE I. 
+Summary 
 
-![image-20210731180425089](img\image-20210731180425089.png)    
+Dr. Barua’s Three Questions . 
 
-Fig. 344. 
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-![image-20210731180521615](img\image-20210731180521615.png)
+BIBLIOGRAPHY 
 
-Fig . 353. 
-
-BUDDHA DISPUTING WITH THE HERETICS. 
-
-( From Grünwedel, Alt -Buddhistische Kultstätten. )
+INDEX 

@@ -1,12 +1,18 @@
 +++
-title = "V. PORAŅA AND PAKUDHA "
-weight = 17
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
-Purana Kassapa
 
-The Death of Pūraņa
 
-Pakudha Kaccāyana
+Summary 
+
+Dr. Barua’s Three Questions . 
+
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
+
+BIBLIOGRAPHY 
+
+INDEX 

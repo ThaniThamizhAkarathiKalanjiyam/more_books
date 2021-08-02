@@ -1,15 +1,18 @@
 +++
-title = "X. THE SOUTHERN ĀJIVIKAS"
-weight = 22
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-The Inscriptions
+Summary 
 
-Ājivikas in Tamil Literature
+Dr. Barua’s Three Questions . 
 
-APPENDIX TO PART - The ICONOCLAST ASCETICS OF KASHMIR
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
+BIBLIOGRAPHY 
+
+INDEX 

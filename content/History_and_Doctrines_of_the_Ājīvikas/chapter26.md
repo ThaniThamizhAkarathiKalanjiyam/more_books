@@ -1,18 +1,18 @@
 +++
-title = "XIII. ĀJIVIKA COSMOLOGY "
-weight = 25
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-The Categories of the Sāmaññu - phala Sutta
+Summary 
 
-The Eight Last Things .
+Dr. Barua’s Three Questions . 
 
-The Six Inevitables 
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-Other Ājivika Categories 
+BIBLIOGRAPHY 
 
-Mandala -mokşa . 
+INDEX 

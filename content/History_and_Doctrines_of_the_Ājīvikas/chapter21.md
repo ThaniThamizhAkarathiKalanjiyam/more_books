@@ -1,20 +1,18 @@
 +++
-title = "IX. ĀJIVIKAS IN LATER TIMES"
-weight = 21
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-References in Sanskrit Literature
+Summary 
 
-Varāhamihira and Utpala
+Dr. Barua’s Three Questions . 
 
-Silanka and the Trairāśikas
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-Nemicandra on the Ājīvikas
+BIBLIOGRAPHY 
 
-Lexicographical References
-
-The Last References to Ājivikas
+INDEX 

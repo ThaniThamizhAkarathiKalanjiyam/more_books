@@ -1,20 +1,18 @@
 +++
-title = "VII. THE EARLY ĀJĪVIKA COMMUNITY ( II) "
-weight = 19
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-Begging and Dietary Practices
+Summary 
 
-Accusations of Worldliness and Immorality
+Dr. Barua’s Three Questions . 
 
-The Final Penance
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-Ājivika Laymen
+BIBLIOGRAPHY 
 
-Relations between Ājivikas and Buddhists
-
-Relations between Ājivikas and Jainas
+INDEX 

@@ -1,14 +1,18 @@
 +++
-title = "PART II. DOCTRINES OF THE ĀJĪVIKAS CHAPTER PAGE"
-weight = 23
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
+Summary 
 
+Dr. Barua’s Three Questions . 
 
-### PART II.
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-####  DOCTRINES OF THE ĀJĪVIKAS CHAPTER PAGE
+BIBLIOGRAPHY 
+
+INDEX 

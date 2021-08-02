@@ -1,42 +1,18 @@
 +++
-title = "History and Doctrines of THE AJĪVIKAS"
-weight = 5
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
 
 
-# History and Doctrines of THE AJĪVIKAS 
+Summary 
 
-## A Vanished Indian Religion 
+Dr. Barua’s Three Questions . 
 
-### A. L. BASHAM 
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
+BIBLIOGRAPHY 
 
-
-
-
-
-
-#### With a foreword by 
-
-##### L. D. BARNETT 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##### MOTILAL BANARSIDASS PUBLISHERS PRIVATE LIMITED • DELHI
+INDEX 

@@ -1,20 +1,18 @@
 +++
-title = "IV. THE LAST DAYS OF MAKKHALI GOSĀLA "
-weight = 16
+title = "XV. CONCLUSION  "
+weight = 28
 date = "2019-05-12"
 
 +++
 
-The Six Disācaras 
 
-Gosāla is Exposed by Mahāvira 
 
-Gosāla Visits Mahāvīra 
+Summary 
 
-Gosāla's Delirium Ayampula Visits Gosāla 
+Dr. Barua’s Three Questions . 
 
-Gosāla's Repentance and Death 
+The Influence of the Ajivikas The Place of the Ajivikas in Indian History 
 
-The Date of Gosāla's Death
+BIBLIOGRAPHY 
 
-The Name and Titles of Makkhali Gosāla 
+INDEX 
