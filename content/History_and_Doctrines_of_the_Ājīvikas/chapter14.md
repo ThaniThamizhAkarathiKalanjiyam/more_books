@@ -1,0 +1,458 @@
++++
+title = "II. THE SIX HERETICS"
+weight = 14
+date = "2019-05-12"
+
++++
+
+## THE RECORD OF THE SĀMANÑA- PHALA SUTTA 
+
+Throughout the Pāli canon the teaching of the Buddha and the activities and discipline of his Order are contrasted with the doctrines and practices of six other teachers and their followers, who are represented as the Buddha's contemporaries, and were doubtless, like the Buddha himself, inspired by the wave of dissatisfaction with the system of orthodox Brāhmaṇism , which seems to have swept over the Ganges valley in the sixth and fifth centuries B.C. The six heretics, as portrayed in the Pāli texts, have little individuality. Occasional brief references to an individual teacher may be found, but they are usually referred to as a group. Their character as real human beings is often very tenuous ; for instance in the Milinda Pañha they are represented as still surviving centuries after the Buddha's death, and have become mere lay figures, representative of non - Buddhist hetero doxy. Their teachings are often confused, and the doctrines attributed in a given reference to any one teacher may elsewhere be ascribed to another. Much of the information about the six that is contained in the Buddhist texts, like the references to Gosāla in those of the Jainas, is to be treated very cautiously ; for it is evident that the authors had but a limited knowledge of the teachings of the heretics, and what knowledge they had was warped by odium theologicum . Nevertheless these Buddhist and Jaina texts are the only source of our knowledge of the origin of the Ājivikas, and must be the starting point for any study of the sect. 
+
+In the Pāli scriptures the lengthiest and most detailed passage on these men and their doctrines is contained in the Sāmañña 
+
+1 E.g. Majjh. i, 198, 250 ; Sam . i , 66 ; Jāt. i, 509, iv, 398 ff. ; Vin . ii, 111 ff. 
+
+pp. 4 ff. V. infra, p. 21. 2
+
+THE SIX HERETICS 11 
+
+phala Sutta of the Dīgha Nikāya.1 The philosophies there ascribed to them contain much that was included in later Ājivika teaching, and the passage in which the heretical ascetic Makkhali Gosāla propounds his determinist view of the universe 2 has been taken by both Hoernle and Barua as a basis for their studies on the 
+
+Ājivikas. The philosophical implications of the Sutta will be considered in the second part of this work 3 ; meanwhile it merits careful consideration from the historical viewpoint. The narrative framework of the Sāmañña -phala Sutta may be summarized as follows : 
+
+While the Buddha, accompanied by 1,250 bhikkhus, was staying at Rājagaha, then the Magadhan capital, King Ajātasattu felt in need of spiritual guidance. One after another six of his ministers came forward, each suggesting one of the six heretical teachers as a person capable of resolving the King's doubts. The names of the six were : 
+
+1. Pürana Kassapa, 
+
+2. Makkhali Gosala , 
+
+3. Ajita Kesakambali, 
+
+4. Pakudha Kaccāyana, 
+
+5. Sañjaya Belatthiputta, and 
+
+6. Nigantha Nātaputta. 
+
+Each is described in the same stock terms, a formula applied elsewhere to the six heretics in the Pāli canon . The phrases have a certain importance since they at least indicate the celebrity and influence which the early Buddhist tradition attributed to the six teachers. Each is referred to as the leader of an order ( gañácariyo), well known, famous, the founder of a sect ( titthakāro ), respected as a saint ( sādhu -sammato), revered by many people, a homeless wanderer of long standing (cira pabbajito ), and advanced in years. 
+
+Each minister urged the King to visit one or other of the ascetics, who would set his mind at rest, but at each suggestion the King remained silent . Finally Jivaka, the “ children's doctor ” ( komārabhacco), suggested a visit to the Buddha . The suggestion was acceptable to Ajātasattu, who left for Jivaka's mango grove, where the Master was staying with his followers. 1 Digha i, pp. 47 ff. 2 V. infra, pp. 13-14. 
+
+: V. infra, pp. 224 ff, 240 ff. 4 E.g. Jāt, i, 509; Digha ii , 150.
+
+12 HISTORY OF THE ĀJĪVIKAS 
+
+On his arrival he asked the Buddha to answer the question which had been troubling him : “ The fruits of various worldly trades and professions are obvious, but it is possible to show any appreciable benefit to be derived from asceticism ? ( sanditthikam sāmañña -phalam ). ” He declared that he had previously put the same question to other ascetics and brāhmaṇas, but had so far received no satisfactory answer . At the Buddha's request he repeated the replies given to his inquiry by the six heretics. None of them had tried to give a logical answer to the King's question, but each had prevaricated, repeating what seems to be the set formula of the school which he had founded . After hearing Ajātasattu's account of his interviews with the six heretics the Buddha preached a sermon on the advantages of the homeless life, and the King was duly consoled and impressed . 
+
+From this, and from many other passages in the Pāli canon , it is quite clear that Buddhism in its early stages had to contend not only with the orthodox brāhmaṇas and with the adherents of the twenty -fourth tīrthankara of Jainism , who is the sixth teacher of the above list, but also with the followers of several other religious leaders. The six heretics must have been the most important members of a class which contained many lesser men, with smaller more localized followings, whose names and doctrines have now completely vanished. There is no need to accept the view which, both implicitly and explicitly, is to be found expressed in Dr. B. M. Barua's Pre- Buddhistic Indian Philosophy, that these men were philosophers or theologians in a modern sense. Rather it seems probable that in the sixth century B.c. the mental life of India was in ferment, and was permeated by a mass of mutually contradictory theories about the universe and man's place therein, some verging on the bizarre in their fancifulness, others more capable of a logical justification. The chief mouthpieces of the new ideas were Buddha and Mahāvira, but many others, including the six heretics, must have made some contribution to the thought of their time. 
+
+While the three unorthodox systems of Buddhism , Jainism , and Ajīvikism crystallized round the names of Buddha, Mahāvīra, and Makkhali Gosāla respectively, it seems, in the case of the latter sect at any rate, that other teachers beside the reputed founder contributed to the finished doctrinal system . This will
+
+THE SIX HERETICS 13 
+
+be made clear by a study of the doctrines attributed to the six teachers in various parts of the Pāli canon . To commence with our locus classicus, the teachings of the six , as narrated by Ajātasattu to the Buddha in the Sāmañña -phala Sutta, may be paraphrased as follows : 
+
+1. Pūrana Kassa pa 
+
+“ He who performs an act or causes an act to be performed ... he who destroys life, the thief, the housebreaker, the plunderer ... the highway robber,the adulterer and the liar . . . commit no sin. Even if with a razor - sharp discus a man reduce all the life on earth to a single heap of flesh , he commits no sin ... 
+
+If he come down the south bank of the Ganges, slaying, maiming, and torturing, and causing others to be slain, maimed, or tortured , he commits no sin, neither does sin approach him . Likewise if a man go down the north bank of the Ganges, giving alms and sacrificing, and causing alms to be given and sacrifices to be performed , he acquires no merit, neither does merit approach him. From liberality, self -control, abstinence , and honesty is derived neither merit, nor the approach of merit.” 1 
+
+2. Makkhali Gosāla 
+
+There is neither cause nor basis for the sins of living beings ; they become sinful without cause or basis. Neither is there cause or basis for the purity of living beings ; they become pure without cause or basis. There is no deed performed either by oneself or by others (which can affect one's future births) , no human 
+
+action, no strength, no courage, no human endurance or human prowess (which can affect one's destiny in this life ).2 All beings, 1 Karato kho kārayato . . . pānam atimāpayato, adinnam ādiyato, sandhim chindato , nillopam harato paripanthe titthato , paradāram gacchato, musā bhanato karoto na karīyati păpam . Khura -pariyantena ce pi cakkena yo imissā pathaviyā pāņe . . . eka -mamsa -puñjam kareyya, n'atthi tato -nidānam pāpam , n'atthi pāpassa agamo. Dakkhinañ ce pi Gangā-tīram ūgaccheyya hananto ghātento chindanto chedāpento pācanto pācento, n'atthi tato -nidānam pāpam , n'atthi pāpassa āgamo. Uttaran ce pi Gangā-tīram gaccheyya dadanto dāpento yajanto yajāpenton'atthi tato -nidānampuññam , n'atthi puññassa āgamo. Dānena damena samyamena sacca -vajjena n’atthi puññam , n'atthi puññassa agamo. Op. cit. , p. 52. 
+
+2 This paraphrase is expanded on the basis of Buddhaghosa's commentary, Sumangala Vilūsini: Aita kāre ti atta - kāro . Yena attanā kata - kammeņa ime sattā devattam ... pi pāpumanti, tam pi patikkhipati. . . . N'atthi purisa - kāre ti yena purisa -kāreņa sattā vuttappakāra - sampattiyo păpu nanti, tam pi patikkhipati. Sum . Vil. i , pp. 160-1.
+
+14 HISTORY OF THE ĀJĪVIKAS 
+
+all that have breath, all that are born, all that have life, are without power, strength, or virtue, but are developed by destiny, chance, and nature, and experience joy and sorrow in the six classes ( of existence). 
+
+There are 1,400,000 chief uterine births, 6,000 and 600 ; 500 karmas, 5 karmas, 3 karmas, a karma, and half a karma ; 62 paths ; 62 lesser kalpas ; 6 classes (of human existence) ; 8 stages of man ; 4,900 means of livelihood ( ? ) ; 4,900 ascetics ; 4,900 dwellings of nāgas ; 2,000 faculties ; 3,000 purgatories ; 
+
+36 places covered with dust ( ? ) ; 7 sentient births ; 7 insentient births ; 7 births from knots ( ? ) 1 ; 7 gods; 7 men ; 7 pisāca ( births ? ) ; 7 lakes ; 7 knots ( ? ) , 1 and 700 ; 7 precipices, and 700 ; 7 dreams, and 700 ; and 8,400,000 great kalpas through which fool and wise alike will take their course, and make an end of sorrow. There is no question of bringing unripe karma to fruition, nor of exhausting karma already ripened, by virtuous conduct, by vows, by penance, or by chastity. That cannot be done.2 Samsāra is measured as with a bushel, with its joy and sorrow and its appointed end. It can neither be lessened nor increased, nor is there any excess or deficiency of it. Just as a ball of thread will, when thrown, unwind to its full length, so fool and wise alike will take their course , and make an end of sorrow.3 
+
+1 These and several other cruxes in Makkhali's catalogue are provisionally rendered in the light of Buddhaghosa's commentary ( Sum. Vil. i, pp. 163-4). For a fuller consideration ofthemv. infra, pp. 240 ff. 
+
+2 Here I have taken the liberty of inserting afull stop which does not occur in the PTS. edition of the text. If we read H'evam n'atthi with dona -mite we have a definite contradiction of Makkhali's doctrine as expressed elsewhere. Buddhaghosa agrees in associating the phrase with the preceding sentence : H’evam n'atth î ti evan n'atthi tam hi ubhayam pi na sakkā kātun ti dipeti. Sum. Vil. i , p. 164. 
+
+3 N'atthi . . . hetu , n'atthi paccayo sattānam samkilesāya , ahetu -appaccayā sattā samkilissanti. N'atthi hetu , n'atthi paccayo sattānam visuddhiya, ahetu apaccayā sattā visujjhanti. N'atthi atta - kāre, n'atthi para -käre, n'atthi purisa kāre, n'atthi balam , n'atthi viriyam , n'atthi purisa -thāmo, n'atthi purisa - parak kamo. Sabbe sattā , sabbe pāņā, sabbebhūtā, sabbe jīvā, avasā abalā aviriyā niyati -sangati-bhāva- pariņata chass' ev’ ábhijātisu sukha -dukkhampațisamvedenti. 
+
+Cuddasa kho pan imani yoni-pamukha -sata -sahassäni, satthin ca satāni, cha ca satāni ; pañca ca kammuno satāni, pañca ca kammāni, tīņi ca kammāni, kamme ca , addha -kamme ca ; dvatthi pati padā ; dvatth' antarakappă ; cha! abhijātiyo ; attha purisa -bhūmiyo ; ekūna - paññāsa ājīva -sate ; ekūna - paññāsa paribbā jaka-sate ; ekūna -paññāsa nāgāvāsa -sate ; vise indriya -sate ; timse niriya - sate ; chattimsa rajo -dhātuyo ; satta saññi-gabbhā ; satta asaññi-gabbhā ; suttă niganthi- gabbhā ; satta devā ; satta mānusā ; satta pesācā ; satta sarà ; satta patuvā, satta pațuvā -satāni ; satta papātā , satta papāta -satāni ; satta supinā, satta supina -satāni ; cull-âsiti mahakappuno sata -sahassāni, yāni bāle
+
+THE SIX HERETICS 15 
+
+3. Ajita Kesakambalī 
+
+There is no (merit in) almsgiving sacrifice or offering, no result or ripening of good or evil deeds. There is no passing from this world to the next . No benefit accrues from the service of mother or father. There is no after- life, and there are no ascetics or brāhmaṇas who have reached perfection on the right path , 
+
+and who, having known and experienced this world and the world beyond, publish ( their knowledge ). Man is formed of the four elements ; when he dies earth returns to the aggregate of earth, water to water, fire to fire, and air to air, while the senses vanish into space . Four men with the bier take up the corpse ; they gossip ( about the dead man) as far as the burning- ground, (where) his bones turn the colour of a dove's wing, and his sacrifices end in ashes. They are fools who preach almsgiving, and those who maintain the existence of immaterial categories) speak vain and lying nonsense. When the body dies both fool and wise alike are cut off and perish . They do not survive after death . 
+
+ca pandite ca sandhävitvā samsaritvā dukkhass' antam karissanti. Tattha n'atthi : “ imin ' âham silena vā vatena vā tapena vā brahmacariyeņa vā aparipakkam vā kammam paripācessāmi, paripakkam vā kammam phussa -phussa vyanti karissāmî ” ti. H'evam n'atthi. Doņu -mite sukha -dukkhe pariyanta -kațe samsāre, n'atthi hāyana -vaddhane, n'atthi ukkams'-avakamse. Seyyathā pi nāma sutta guļe khittenibbethiyamānam eva phaleti , evam eva bāle ca panditeca sandhävitvā samsaritvā dukkhass' antam karissanti. Dīgha i , pp. 53-4. i This paraphrase on the basis of Buddhaghosa : N'atthi a y a m lo ko ti para -loke thitassa pi ayam loko n'atthi. Ñ'atth i para - loko ti idha loke thitassa pi para -loko n'atthi. Sabbe tattha tatth' eva ucchijanti ti dasseti ( Sum. Vil. i, p. 165). " Buddhaghosa seems to imply that Ajita admitted the existence of a world beyond, but one which it was impossible for mortals to enter ; certainly he did not deny the existence of the material world. 
+
+2 Again an expansion of the text, based on Buddhaghosa : N'atthi mātă n'atthi pită ti tesu sammā- pațipattim icchă -pațipattim phal . abhāva -vasena vadati. Sum . Vil. i, p. 165 . 
+
+3 Accepting Buddhaghosa : Padā n'iti, ayam evam sīlavā ahosi, evam dussilo ” ti, ădină nayena pavattāni guņâguna-padāni. Sum . Vil. i, p. 166. 
+
+Chalmers translates tho same passage as it occurs in Majjh . i, p. 515, as whose 
+
+.
+
+remains are visible as far as the charnel ground ” ( Further Dialogues i , p . 364). 4 N'atthi . . . dinnam , n'atthi yittham , n'atthi hutam, n'atthi sukata -dukkatā nam kammānam phalam vipāko, n'atthi ayam loko, n'atthi paro loko, n'atthi mātā , n'atthi pitā , n'atthi sattā -opapātikā, n'atthi loke samaņa-brāhmaṇā sam maggată sammā -pațippannā, ye imañ ca lokam parañ ca lokamsayam abhiññā sacchikatvā pavedenti. Cātum -mahābhūtiko ayam puriso ; yadā kālam karoti pathavī pațhavi- kāyam anupeti anupagacchati, āpo āpo -kāyam tejo tejo kāyam . . , vāyo vāyo -kāyam anupeti anupagacchati, ākāsam indriyāni samka manti. Āsandi-pañcamā purisā matam ādāya gacchanti, yāva ālāhanā padāni pañ ñāpenti, kāpotakāni atthini bhavanti, bhass-ant' âhutiyo. Dattu - paññattam yad idam dānam , tesam tuccham musā vilāpo ye keci atthikavādam vadanti. Bāle ca 
+
+16 HISTORY OF THE ĀJĪVIKAS 
+
+4. Pakudha Kaccāyana 
+
+The seven elementary categories are neither made nor ordered , neither caused nor constructed ; they are barren , as firm as mountains, as stable as pillars. They neither move nor develop ; they do not injure one another, and one has no effect on the joy, or on the sorrow , or on the joy and sorrow of another. What are the seven ? The bodies of earth , of water, of fire, and of air, and joy and sorrow , with life as the seventh .... No man slays or causes to slay, hears or causes to hear, knows or causes to know . Even if a man cleave another's head with a sharp sword, he does not take life, for the sword - cut passes between the seven elements.1 
+
+5. Nigantha Nāta putta 
+
+A nigantha is surrounded by the barrier of fourfold restraint. How is he surrounded ? ... He practises restraint with regard to water, he avoids all sin , by avoiding sin his sins are washed away , and he is filled with the sense of all sins avoided.2 ... So surrounded by the barrier of fourfold restraint his mind is perfected,3 controlled , and firm.4 
+
+6. Sañjaya Belatthiputta 
+
+If you asked me, “ Is there another world ? ” and if I believed that there was, I should tell you so . But that is not what I say. 
+
+pandite ca kāyassa bhedā ucchijjanti vinassanti, na honti param maraņā . Dīgha i, p . 55. A remarkable parallel to this passage is to be found in Sūtrakrtanga ( Sū. kr. II, i, 9, fol. 275 ff., in SBE. xlv, II, i, 15–17 ). 
+
+1 Satt' ime . . . kāyā akațā akata-vidhā animmitā animmātā vañjhā kūtattha esika - tthāyi- tthitā . Te na iñjanti na vipariņamanti na aññam -aññam vyābādhenti m đlam aññam-ammassa sakhaga cũ dukha ga cũ saukha - daukkhaga cũ . Katame. satta ? Pathavi-kāyo āpo -kāyo tejo -kāyo vùyo -kāyo sukhe dukkhe jīva- sattame.... Tattha matthi hanta Đã ghätetã và sotã va saceta và tiềmatã vã viñºäpetã cũ . Yo pi tinhena satthena sīsam chindati na koci kiñci jīvitā voropeti, sattannam yeva kāyānam antarena sattha-vivaram anupatati. Dīgha i, p . 56. With this compare Sū. kr. II, i, 10, fol. 280 ff. (SBE. xlv, II, i, 20-4 ). Here a five - element theory is outlined in very similar terms. 2 This doubtful interpretation on the basis of Buddhaghosa : Sabba vāri- yuto ti sabbena pāpa -vāraṇena yutto. S abba -väri -dhu to ti sabbena pāpa-vāraṇena dhuta -pāpo. S abba - vāri- phuttho ti sabbena pāpa -vāranena phuttho. Sum . Vil. i, p. 168 . 
+
+Buddhaghosa : Gatatto ti koți ppatta -citto . Op . cit. , loc. cit. 
+
+... Nigantho câtu - yāma-samvara- samvuto hoti. Kathañ ca ... samvuto hoti ? ... Nigantho sabba -vārī-vārito ca hoti , sabba -vārī -yuto ca, sabba -vārī dhuto ca , sabba -vārī-phutěho ca .... Yato . . . evam ... samvuto hoti, ayam vuccati ... nigantho gatatto ca yatatto ca thitatto ca ti. Dīgha i . p. 57.
+
+THE SIX HERETICS 17 
+
+I do not say that it is so ; I do not say that it is otherwise ; I do not say that it is not so ; nor do I say that it is not not so 1 ... ( The same formula is repeated after various hypothetical questions.) 
+
+Of these six statements of doctrine three have little relevance to the study of the Ājivikas. That which is here ascribed to Ajita Kesakambali is a clear expression of materialism , and its author, whether Ajita or another, must have been a forerunner of the later Cārvākas. The teaching ascribed to Nigantha Nātaputta is very obscure, but, as Jacobi has pointed out,2 while it is not an accurate description of the Jaina creed it contains nothing alien to it. We may accept the identification of Nigantha with Vardhamana Mahāvīra, the twenty -fourth tīrthankara of Jainism . The passage ascribed to Sañjaya Belatthi putta is probably satirical, a tilt at agnostic teachers who were unwilling to give a definite answer to any metaphysical question put to them . Dr. Barua holds another view , and believes that the statement of Sañjaya represents a doctrine which was held in good faith by a school of Pyrrhonists. Whatever the authenticity of this passage, its agnosticism was never a part of the Ājivika creed, and it may be omitted from further consideration . 
+
+We are left with the passages ascribed to Pūraņa, Makkhali, and Pakudha. The doctrines of all three, and the names of two of these teachers are connected with later Ājivikism . The authenticity of the ascription of niyativāda to Makkhali Gosāla may be confirmed by reference to the Jaina scriptures, wherein Gosāla Mankhaliputta propounds a very similar doctrine. Pakudha's fantastic atomism and his Parmenidean doctrine of immobility, which follows logically from Makkhali's determinism , are integral parts of the teaching of the Dravidian Ājīvikas as described in Tamil texts. Pūraņa is mentioned by name and apparently held in high respect by these later Ājivikas , and his 
+
+1 " Atthi paro loko ? ” ti iti ce tam pucchasi, “ atthi paro loko ” ti iti ce me assa , " atthi paro loko ” ti te nam vyākareyyam . Évam pi me no. Tathāti pi me no. Aññatha ti pi me no. No ti pi me no. Nono ti pime no .... Dīghā i, p. 58. 
+
+2 Introduction to Gaina Sūtras, pt. ü, SBE. xlv, pp. xx - xxi. 3 Pre- Buddhistic Indian Philosophy, pp. 325 ff. 
+
+4 V. infra, pp. 218-19. 
+
+5 V. infra, pp. 235 ff., 262 ff. 
+
+6 V. infra, pp. 80–81.
+
+18 HISTORY OF THE ĀJIVIKAS 
+
+antinomian ethics are quite consistent with Makkhali's metaphysics. 
+
+## Other Buddhist References to the Doctrines of the Heretics
+
+
+
+In certain other passages of the Pāli canon the distribution of doctrines among the six teachers is significantly altered , in a way which strongly suggests that the credos ascribed in the Sāmañña - phala Sutta to Makkhali, Pūraņa, and Pakudha were aspects of a single body of teaching. 
+
+Thus in Mahābodhi Jātaka 1 King Brahmadatta of Benares has five heretical councillors, who are respectively an ahetukavādi, an issarakāranavādi, a pubbekatavādi, an ucchedavādi, and a khattavijjavādi. The doctrines maintained by these five are stated in versified form , and are in part paraphrases of the Sāmañña - phala Sutta passages which we have quoted . At the conclusion of the story the five ministers are stated to have been previous incarnations of Pūraņa, Makkhali, Pakudha, Ajita, and Nigaạtha. Thus, assuming that the doctrines were thought to have been held in the order named, the fatalist teaching ascribed in the Sāmañña- phala Sutta to Makkhali is here attributed to Pūraņa ; Makkhali himself becomes a theist ? ; Pakudha 
+
+maintains an obscure doctrine which seems to approximate to the orthodox theory of karma 3 ; Ajita upholds materialism , as in the Sāmañña- phala Sutta reference ; while Nigantha, in fact the apostle of ahimsā, is here the teacher of a Macchiavellian doctrine, resembling the antinomianism of Pūraņa, as described in the Sutta passage. 
+
+A further account of heterodox teachings occurs in the Sandaka Sutta of the Majjhima Nikāya . Here the bhikkhu Ananda describes to the wanderer Sandaka the four " antitheses to the higher life ” ( abrahmacariyavāsā ). These are : 
+
+( 1 ) The materialist teacher, who denies the existence of an 
+
+1 Jāt. v , pp. 227 ff. 
+
+2 Ayam loko issara -nimmito ti. Ját. v, p. 228. 
+
+3 Imesam sattānam sukham vā dukkham và uppajjamānam pubbekaten' era uppajjati, li. Ibid . Mātā - pitaro pi miretvā attano va attho kāmetabbo. Ibid. 
+
+5 Majjh. i , pp. 513 ff.
+
+THE SIX HERETICS 19 
+
+after -life. The passage describing his teaching is a word - for -word transcription of Ajita Kesakambali's doctrine as given in the Sāmañña - phala Sutta . Here, however, no teacher is named . (2) The antinomian - a repetition of Pūraņa's doctrine.2 ( 3) The fatalist - repeating the teachings of Makkhali as given in the Sāmañña -phala Sutta up to “ experience, joy, and sorrow in the six classes (of existence) ” 3 
+
+( 4) The atomist. Here the atomic theory of Pakudha 4 is repeated, but appended to it we are given the second half of Makkhali's determinist teaching, including the obscure list of categories . 
+
+Ananda then describes the four “ comfortless vocations (anassāsikāni brahmacariyāni). These are : 
+
+( 1 ) The teacher claiming omniscience . 
+
+(2) The traditionalist. 
+
+( 3) The rationalist, and 
+
+(4) The sceptic. 
+
+To the latter is ascribed the passage given in the Sāmañña -phala Sutta to Sañjaya , but the other three teachers of the second group are referred to in terms not suggesting any of the six famous heretics. The conclusion of the Sutta is surprising. Sandaka realizes that all the teachers are false guides, and that if their doctrines are true all self-control is a work of supererogation. He is con verted to the true Dhamma, and declares : “ These Ājīvikas .. 
+
+are children of a childless mother ; they extol themselves and disparage others, yet they have only produced three shining lights, to wit Nanda Vaccha, Kisa Sankicca, and Makkhali Gosāla.” 7 
+
+It will be seen that the fatalist teaching, in the Sāmañña phala Sutta ascribed to Makkhali, is here divided, and the second 
+
+1 V. supra , p. 15. 2 V. supra, p. 13. 3 V. supra, pp. 13-14 . 4 V. supra , p . 16. 5 V. supra, p. 14. 6 V. supra, pp. 16–17. ? Ime pan ājīvikä puttamatāya puttā , attānañ c'eva ukkamsenti pare ca vambhenti, tayo c'eva niyyātāro paññāpenti, seyyath' idam Nandam Vaccham , Kisam Sankiccam , Makkhali Gosālan ti. Majjh . i , p . 524 . 
+
+I adopt Lord Chalmers' translation (Further Dialogues i, p. 371 ) , which is based on Buddhaghosa's commentary, Papañca -sūdani: Putta -mataya puttâ ti so kira imam dhammam sutvā ājīvikā matā nāmâ ti saññi hutvā evam āha. Ayam h'ettha attho. Ājīvikā matā nāma, tesam mātā puttamatā hoti iti ājīvikā puttamatāya puttā nāma honti. Op. cit ., iii, p. 235.
+
+20 HISTORY OF THE ĀJĪVIKAS 
+
+half linked with the doctrine of Pakudha. The propagators of all the objectionable teachings are classed together under the broad title of Ājīvikas, and two new names, those of Nanda Vaccha and Kisa Sankicca, are introduced ; these two shadowy figures we shall consider in the following chapter. Further confusion is to be found in a passage in the Petavatthu ,2 where a verse paraphrase of parts of the doctrines ascribed in the Sāmañña -phala Sutta to Makkhali, Pūraņa, Ajita, and Pakudha, together with certain new teachings which are to be found among the doctrines of the later Ājivikas, are placed in the mouth of the peta, Nandaka. Similar verse passages occur in Mahānārada kassapa Jātaka, where various doctrines elsewhere ascribed to the six heretics are spoken by the ascetic Guņa. 
+
+Two remarkable references, strongly indicating the confusion of the various doctrines , are to be found in the Samyutta Nikāya. In one of these 4 Mahāli, a Licchavi, approaches the Buddha while the latter is residing at Vesāli, and declares : “ Pūraņa Kassapa says, ' there is neither cause nor basis for the sins of living beings ; they become sinful without cause or basis. Neither is there cause or basis for the purity of living beings ; they become pure without cause or basis. ” The same phrase is repeated in the second passage,5 but here the words “ ignorance and lack of discernment are substituted for “ sins ” , and their 
+
+» 6
+
+antitheses for “ purity ” . These passages indicate quite clearly that Pūraņa was thought of as holding doctrines very similar to those of Makkhali, to whom the words are ascribed in the Sāmañña - phala Sutta . 
+
+In the Anguttara Nikāya ? the six abhijātis, or classes of humanity, ascribed in the Sāmañña -phala Sutta to Makkhali, are stated by the monk Ananda to be a distinctive part of Pūraņa's teaching. Here the six classes are described in detail, and, significantly, Pūraņa is said to include in his highest category (paramasukk’-abhijāti) none other than the three shining lights of the Majjhima passage,8 Nanda Vaccha, Kisa Sankicca, and Makkhali Gosāla. Thus we have no less than three passages in which parts of Makkhali's doctrine are ascribed to Pūraņa, 
+
+1 V. infra , pp. 27 ff. 2. iv, 3, pp. 57 ff. 3 Jāt. vi , pp. 219 ff. V. infra, pp. 217, 263. 4 Sam. iii, p. 69. 5 Sam . v , p . 126. 6 Aññānāya adassanāya . ? Ang. iii, p. 383 f . 8 V. supra , p . 19. 
+
+THE SIX HERETICS 21 
+
+and one in which the latter is purported to proclaim the former to be in the highest rank of spiritual attainment. The six are mentioned together in the Milinda Pañha, as con temporaries of the Greco- Indian King. Here doctrines are ascribed only to the two most important members of the group, Makkhali and Pūraņa, and their statements are of the most brief descrip tion. When the King asks Pūraņa “ Who rules the world ? ” the latter replies “ The earth rules the world ” 1 Makkhali's brief speech implies an antinomian and fatalistic doctrine, but also states a view not to be found elsewhere ascribed to the Ājivikas, to the effect that brāhmaṇas, kşattriyas, vaisyas, sudras, and outcastes would all retain their original status in future births. This doctrine is quite inconsistent with all state ments of the Ājīvika theory of transmigration to be found else where ; in fact the whole passage, with its obscurity and blatant anachronism , seems to be lacking in all significance as a source for reconstructing Ājīvika history and theology, and merely indicates that, by the time of the composition of the text , Ājīvikism was very imperfectly known in northern India. The Tibetan version of the Sāmañña - phala Sutta, quoted by Rockhill, shows even further confusion. The Dulva ascribes to Pūrņa Kāśyapa not only the antinomianism of the Pāli version , but also a denial of life after death , a view attributed in the Pāli to Ajita. “ Maskarin son of Gośālī " maintains the same doctrine as in the Pāli ; “ Sañjayin son of Vairattī ” acquires an anti nomianism very like that of Pūraņa in the original text ; “ Ajita Kesakambala ” here maintains not only Pakudha's doctrine of the seven elements, but also the second half of Makkhali's fatalistic catechism , including the long list of obscure categories ; Nirgrantha son of Djñātī ” retains his authentic teaching of karma wiped out by penance ; and “ Kakuda Kātyāyana usurps the place of Sañjaya as the prevaricating sceptic. Rockhill also quotes two Chinese versions of the Sutta . In the first of these, the translation of which is dated A.D. 412–13, 1 “ Ko lokam pāletî ” ti. “ Pathavī ... lokam paleti ” ti . Milinda Pañha , P.4. 
+
+? N'atthi ... kusalákusalāni kammāni, n'atthi . . . kammānam phalam vipāko ye te idhaloke khattiyā ... brāhmaṇā vessā suddā candālā pukkusā 
+
+.
+
+te paralokam gantvā pi puna brāhmaṇā ( etc .) ... bhavissanti. Op. cit ., p. 5. 3 The Life of the Buddha, p. 99 f. 
+
+4 Op. cit. , app. ii, p. 255f. 
+
+22 HISTORY OF THE ĀJĪVIKAS 
+
+we find Pūraņa maintaining his original doctrine of guiltlessness ; Makkhali has acquired part of Ajita’s materialism ; “ Kakuda Kātyāyana ” has a portion of Makkhali's determinism ; Sañjayin remains a sceptic ; while the Nirgrantha Jñātrīputra claims omniscience, as did the historical Mahāvīra. 
+
+The second version is a little earlier, the date of its translation , as given by Rockhill, being A.D. 381-395. Here Pūraņa becomes the materialist ; Maskarin Gośāla declares “ there is no present world nor the world to come, nor power nor powerlessness, 
+
+nor energy. All men have obtained their pleasure and pain ( ?) ”. an obscure doctrine, clearly owing much to Ajita's pronounce ment in the Pāli, but evidently implying fatalism in its last phrase. The prevaricating sceptic is here Ajita ; “ Kakuda's ” teaching is almost unintelligible in the translation- “ If there be a man who has been cut off and who sees with his eyes, there can be no dispute ( about the question) . If the life of the body comes to an end there is nothing to grieve about in the death of life ” ; Sañjayin declares that there is no reward of sin or virtue— Pūraņa's doctrine in the Pāli Sutta ; and Nirgrantha maintains that all is the effect of karma. The various ascriptions of doctrine to be found in the Buddhist 
+
+scriptures may be conveniently D
+
+summarized in tabular form : 
+
+M
+
+C
+
+i
+
+4
+
+P
+
+3C
+
+8h
+
+īg
+
+h4
+
+a 7
+
+, . i
+
+J2
+
+ā2
+
+v 
+
+t7
+
+, . 
+
+M
+
+a
+
+5j
+
+1
+
+j3
+
+h
+
+.1 , 
+
+.i
+
+S
+
+a6
+
+i
+
+9 
+
+im
+
+. , i
+
+S1
+
+a2
+
+vm
+
+6
+
+, . .
+
+A
+
+3
+
+n
+
+8i
+
+g3 
+
+i
+
+, . i
+
+l
+
+ai
+
+ñ
+
+n4
+
+h
+
+d-
+
+a 5
+
+. , 
+
+Dulv
+
+a. 
+
+hn
+
+1i
+
+2
+
+no
+
+A
+
+–e
+
+.
+
+n 
+
+1s
+
+D
+
+. 
+
+3e
+
+. , 
+
+1i
+
+-n
+
+A
+
+3e
+
+.
+
+9s
+
+D
+
+. 
+
+5* 
+
+e, .
+
+Pürana Kassapa D , (A) D, D D X M А M Makkhali Gosāla D, D T ( D ) D3 D M2 D2 Ajita Kesakambali M M ( M )M2 S 
+
+ED , 
+
+Pakudha Kaccāyana E K ( ED ) s ? Nigaạtha Nātaputta R A P A Sañjaya Belatthiputta s (S) A K ABBREVIATIONS 
+
+A. Antinomianism , the doctrine of no rewards or penalties. Dz. Determinism , the first part of Makkhali's doctrine. 1 Here the teachers are not named , but they may be inferred . ? In a partial or garbled form . 
+
+3 In a partial form , with the additional doctrine that caste status does not change from life to life.
+
+THE SIX HERETICS 23 
+
+D,. The second part of Makkhali's doctrine, including the list of categories. M. Materialism . 
+
+E. The theory of the seven elemental substances. 
+
+R. The doctrine of fourfold restraint. 
+
+S. Prevaricating scepticism . 
+
+T. Theism . 
+
+K. The doctrine of karma. 
+
+0. The doctrine of the omniscient teacher. 
+
+P. The doctrine ofsalvation by penance . 
+
+X. “ The earth rules the world ." 
+
+It is clear that some of these passages are more reliable than others. That in the Dīgha Nikāya shows a completeness and consistency lacking in the rest, and perhaps represents the original source of the other references. The Tibetan and Chinese versions, which have undergone translation, are most suspect, although it is to be noted that the Chinese versions are of a date probably little later than the final recension of the Pāli canon. Yet, despite the very evident textual confusion and corruption, a striking degree of consistency is shown in some particulars. 
+
+Of the doctrines here considered those most characteristic of the later Ājivikas are Makkhali's determinism and Pakudha's theory of unchanging elemental substances. It will be seen from the above table that determinism is in five places attributed to Makkhali, in four to Pūraņa, and in two to Pakudha . The theory of the elements occurs only once in its isolated form , and is there ascribed to Pakudha, but it is twice found combined with determinism . In the Tibetan version, where the ascriptions are most confused, these two theories together are ascribed to Ajita. It may be suggested that the Tibetan version is based not on the Dīgha but on the Majjhima reference, where the two doctrines are also combined in the same manner. The debt of the Tibetan version to the Majjhima is also indicated by the new doctrine devised for Nigaộtha, which is perhaps based on direct knowledge of Jaina practice ; the doctrine of fourfold restraint, which is ascribed to him in the Dīgha, is omitted in the Majjhima passage. The remarkable confusion of the Tibetan version may also be accounted for on the assumption that it is derived from the Majjhima, for in the latter the names of the teachers are not explicitly stated , and misattribution might thus easily have arisen. The ascription of determinism and the theory of the seven elemental substances to Ajita in the Tibetan version seems certainly erroneous, and may be ignored .
+
+24 HISTORY OF THE ĀJĪVIKAS 
+
+Thus we find that Buddhist tradition ascribes Ājivika teachings not only to Makkhali but also to Pūraņa and Pakudha and, with the exception of the doubtful Tibetan reference , to no other of the six heretical teachers. It seems therefore that all three had some hand in the development of Ājivikism . 
+
+Before leaving the Sāmañña -phala Sutta a further point must be considered . The passage there ascribed to Makkhali Gosāla employs the Māgadhi -e termination almost consistently for the masculine nominative singular. In Ajita’s catechism the termina tion occurs only twice, in the phrase bāle ca pandite, and may there be a corrupt reading, resulting from the proximity of the same phrase in Makkhali's statement. In the teaching of Pakudha we find the termination only in the phrase sukhe dukkhe jīva - sat tame. The statements of the other three ascetics contain no Māgadhisms. 
+
+The Māgadhi forms in Makkhali's doctrinal statement must surely be of some significance. They have been noticed by Franke, who suggests two possibilities : either that the Māgadhisms have been deliberately introduced in order to make the speaker seem ludicrous, or that they represent reminiscences of the language of the original teachers. The former hypothesis can scarcely be correct. While the Māgadhi dialect was reserved for lowly and humorous characters in the Sanskrit drama, the Māgadhi -e termination was regularly employed in the great body of early Jaina literature, and we have no reason to believe that it made a ludicrous impression on the contemporary listener. If the intention had been purely ludicrous the -e termination would surely have been employed in the speeches of all six heretics. 
+
+It may be inferred that most of the passage ascribed to Makkhali has a provenance different from that of the others. The first paragraph of this passage, which retains the regular masculine nominative in -o, and where the Māgadhi -e only occurs in the phrase n’atthi atta -kāre, n'atthi parakāre, n'atthi purisa -kāre, may emanate from another source. Different sources of the two parts of this passage are also indicated by the fact 
+
+1
+
+that in the Majjhima and Dulva versions 2 it is broken up, 
+
+1 Dīgha Nikāya in Auswahl Übersetzt, p . 56, n. 5. 
+
+2 V. supra, p. 22. 
+
+THE SIX HERETICS 25 
+
+and the second half incorporated with the theory of the seven elements and attributed in the former to an unnamed teacher suggesting Pakudha, and in the latter to Ajita. 
+
+Further evidence that the first passage of Makkhali's teaching in the Sāmañña -phala Sutta emanates from a source different from that of the second is supplied by the Praśnavyākaraña Sūtra . Here we find a description of the doctrines of the nāsti kavādins, which shows remarkable parallels to the teachings ascribed in the Sāmañña-phala Sutta to Ajita and Makkhali ; 
+
+for example such phrases as “ there is no mother nor father, neither is there human action ” .2 Throughout this passage , besides the regular Ardha -māgadhi masculine ending in -e, occurs the Pāli -o. This fact suggests that this passage, and the first part of Makkhali's teaching in the Sāmañña -phala Sutta , look back to a common source in Pāli or in some dialect with masculine endings in -o, while the second part of the Sāmañña 
+
+phala Sutta passage is taken from a Māgadhi source. On this hypothesis, however, the three anomalous Māgadhisms ( i.e. the compound nouns ending in -kāre) in the first part of the Makkhali passage are difficult to explain, especially as the corre sponding word in the Praśnavyākarana has the -o ending. We can only suggest that they occur as the result of contamination from the second part of the passage, where the nominative singular masculine in -e is to be found throughout. 
+
+The brief Māgadhi phrase in the Pakudha passage of the Sāmañña -phala Sutta 3 is unexpected. The first four elements, earth , water, fire, and air, are given the regular Pāli -o endings, but the fifth , sixth, and seventh , joy, sorrow , and life respectively, 
+
+have the Māgadhi -e, where -am would be expected. It may be suggested that the three latter elements have been interpolated by a different hand in a statement of doctrine which originally taught only four elemental substances, as did the Buddhists and Cārvākas. As will be shown in our second part, the three latter elements of Pakudha's list have other points of difference from the four former, and joy and sorrow do not seem to have been accepted as elements by all Ājivikas . 
+
+1 Sūtra 7, fols. 26-8. 
+
+2 Ammā-piyaro n'atthi, na vi atthi purisakāro. For further comparisons between the two texts v. infra , pp. 217–18 . 3 V. supra, p. 16 . * V . infra, pp. 262 ff. 6 V. infra, p. 265 .
+
+26 HISTORY OF THE ĀJIVIKAS 
+
+To sum up the conclusions of this chapter : Ājivika doctrine emanated from at least two sources ; the mainstay of early Ājīvikism, the doctrine of Niyati, was probably first propagated in a Magadhan dialect ; and the component doctrines of Ājīvikism were early associated with the names of Makkhali , Pūraņa, and Pakudha.

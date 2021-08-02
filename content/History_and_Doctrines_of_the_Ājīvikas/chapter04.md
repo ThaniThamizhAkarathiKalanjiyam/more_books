@@ -1,0 +1,44 @@
++++
+title = "LALA SUNDARLALJAIN   RESEARCH SERIES"
+weight = 4
+date = "2019-05-12"
+
++++
+
+
+
+# LALA SUNDARLALJAIN   RESEARCH SERIES 
+
+
+
+## General Editor 
+
+
+
+### PROF. SATYA RANJAN BANERJEE 
+
+
+
+
+
+## Editorial Board 
+
+> Dr. PADMANABH S. JAINI 
+>
+> PROF. DAYANAND BHARGAVA 
+>
+> PROF. W.B. BOLLEE PROF. KLAUS BRUHN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+VOLUME XVII
